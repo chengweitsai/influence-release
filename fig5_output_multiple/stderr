@@ -1,0 +1,27 @@
+Using TensorFlow backend.
+2017-06-15 03:23:19.714051: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 03:23:19.714163: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 03:23:19.714200: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 03:23:19.714228: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 03:23:19.714255: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 03:23:20.106747: I tensorflow/core/common_runtime/gpu/gpu_device.cc:887] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:02:00.0
+Total memory: 11.92GiB
+Free memory: 11.81GiB
+2017-06-15 03:23:20.106807: I tensorflow/core/common_runtime/gpu/gpu_device.cc:908] DMA: 0 
+2017-06-15 03:23:20.106825: I tensorflow/core/common_runtime/gpu/gpu_device.cc:918] 0:   Y 
+2017-06-15 03:23:20.106849: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:02:00.0)
+/usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gradients_impl.py:93: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+2017-06-15 03:25:31.041336: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:02:00.0)
+2017-06-15 03:26:16.256127: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 23618 get requests, put_count=23494 evicted_count=1000 eviction_rate=0.0425641 and unsatisfied allocation rate=0.0518249
+2017-06-15 03:26:16.256258: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+2017-06-15 03:26:20.405388: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 7046 get requests, put_count=6840 evicted_count=1000 eviction_rate=0.146199 and unsatisfied allocation rate=0.174425
+2017-06-15 03:26:20.405881: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 256 to 281
+2017-06-15 03:26:44.379008: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 224336 get requests, put_count=224363 evicted_count=1000 eviction_rate=0.00445706 and unsatisfied allocation rate=0.00460024
+2017-06-15 03:26:44.379144: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 655 to 720
+2017-06-15 04:23:00.685038: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 6972913 get requests, put_count=6972924 evicted_count=10000 eviction_rate=0.00143412 and unsatisfied allocation rate=0.00144187
+2017-06-15 05:26:20.603704: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 10800843 get requests, put_count=10800850 evicted_count=20000 eviction_rate=0.00185171 and unsatisfied allocation rate=0.00185708
+Exception AttributeError: "'NoneType' object has no attribute 'TF_NewStatus'" in <bound method Session.__del__ of <tensorflow.python.client.session.Session object at 0x7f365fded6d0>> ignored

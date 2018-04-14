@@ -1,7 +1,7 @@
 from __future__ import division
 from __future__ import print_function
 from __future__ import absolute_import
-from __future__ import unicode_literals  
+from __future__ import unicode_literals
 
 import math
 import copy
@@ -29,11 +29,10 @@ from influence.dataset import DataSet
 from influence.dataset_poisoning import generate_inception_features
 
 
-
 def get_Y_pred_correct_inception(model):
     Y_test = model.data_sets.test.labels
     if np.min(Y_test) < -0.5:
-        Y_test = (np.copy(Y_test) + 1) / 2        
+        Y_test = (np.copy(Y_test) + 1) / 2
     Y_pred = model.sess.run(model.preds, feed_dict=model.all_test_feed_dict)
     Y_pred_correct = np.zeros([len(Y_test)])
     for idx, label in enumerate(Y_test):
@@ -47,7 +46,7 @@ num_test_ex_per_class = 300
 
 dataset_name = 'dogfish_%s_%s' % (num_train_ex_per_class, num_test_ex_per_class)
 image_data_sets = load_animals(
-    num_train_ex_per_class=num_train_ex_per_class, 
+    num_train_ex_per_class=num_train_ex_per_class,
     num_test_ex_per_class=num_test_ex_per_class,
     classes=['dog', 'fish'])
 
@@ -66,7 +65,7 @@ X_stacked = np.vstack((X_train, X_test))
 gamma = 0.05
 weight_decay = 0.0001
 
-K = rbf_kernel(X_stacked, gamma = gamma / num_train)
+K = rbf_kernel(X_stacked, gamma=gamma / num_train)
 
 L = slin.cholesky(K, lower=True)
 L_train = L[:num_train, :num_train]
@@ -81,7 +80,7 @@ test_idx = 462
 input_channels = 1
 weight_decay = 0.001
 batch_size = num_train
-initial_learning_rate = 0.001 
+initial_learning_rate = 0.001
 keep_probs = None
 max_lbfgs_iter = 1000
 use_bias = False
@@ -113,7 +112,7 @@ rbf_model = SmoothHinge(
     train_dir='output',
     log_dir='log',
     model_name='dogfish_rbf_hinge_t-0')
-    
+
 rbf_model.train()
 hinge_W = rbf_model.sess.run(rbf_model.params)[0]
 
@@ -140,7 +139,7 @@ params_feed_dict[rbf_model.W_placeholder] = hinge_W
 rbf_model.sess.run(rbf_model.set_params_op, feed_dict=params_feed_dict)
 
 rbf_predicted_loss_diffs = rbf_model.get_influence_on_test_loss(
-    [test_idx], 
+    [test_idx],
     np.arange(len(rbf_model.data_sets.train.labels)),
     force_refresh=True)
 
@@ -163,7 +162,7 @@ full_model = BinaryInceptionModel(
     img_side=img_side,
     num_channels=num_channels,
     weight_decay=weight_decay,
-    num_classes=num_classes, 
+    num_classes=num_classes,
     batch_size=batch_size,
     data_sets=image_data_sets,
     initial_learning_rate=initial_learning_rate,
@@ -175,15 +174,15 @@ full_model = BinaryInceptionModel(
     model_name=full_model_name)
 
 train_inception_features_val = generate_inception_features(
-    full_model, 
-    image_data_sets.train.x, 
-    image_data_sets.train.labels, 
-    batch_size=batch_size)        
+    full_model,
+    image_data_sets.train.x,
+    image_data_sets.train.labels,
+    batch_size=batch_size)
 test_inception_features_val = generate_inception_features(
-    full_model, 
-    image_data_sets.test.x, 
-    image_data_sets.test.labels, 
-    batch_size=batch_size)  
+    full_model,
+    image_data_sets.test.x,
+    image_data_sets.test.labels,
+    batch_size=batch_size)
 
 train = DataSet(
     train_inception_features_val,
@@ -212,7 +211,7 @@ data_sets = base.Datasets(train=train, validation=validation, test=test)
 input_dim = 2048
 weight_decay = 0.001
 batch_size = 1000
-initial_learning_rate = 0.001 
+initial_learning_rate = 0.001
 keep_probs = None
 decay_epochs = [1000, 10000]
 max_lbfgs_iter = 1000
@@ -224,7 +223,7 @@ inception_model = BinaryLogisticRegressionWithLBFGS(
     input_dim=input_dim,
     weight_decay=weight_decay,
     max_lbfgs_iter=max_lbfgs_iter,
-    num_classes=num_classes, 
+    num_classes=num_classes,
     batch_size=batch_size,
     data_sets=data_sets,
     initial_learning_rate=initial_learning_rate,
@@ -238,7 +237,7 @@ inception_model = BinaryLogisticRegressionWithLBFGS(
 inception_model.train()
 
 inception_predicted_loss_diffs = inception_model.get_influence_on_test_loss(
-    [test_idx], 
+    [test_idx],
     np.arange(len(inception_model.data_sets.train.labels)),
     force_refresh=True)
 
@@ -254,7 +253,7 @@ inception_Y_pred_correct = get_Y_pred_correct_inception(inception_model)
 
 
 np.savez(
-    'output/rbf_results', 
+    'output/rbf_results',
     test_idx=test_idx,
     distances=distances,
     flipped_idx=flipped_idx,

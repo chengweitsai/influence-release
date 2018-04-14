@@ -1,0 +1,1325 @@
+('Extracting', u'data/train-images-idx3-ubyte.gz')
+('Extracting', u'data/train-labels-idx1-ubyte.gz')
+('Extracting', u'data/t10k-images-idx3-ubyte.gz')
+('Extracting', u'data/t10k-labels-idx1-ubyte.gz')
+Total number of parameters: 2616
+Training for 500000 steps
+Step 0: loss = 2.42338800 (2.232 sec)
+Step 1000: loss = 1.60819709 (0.009 sec)
+Step 2000: loss = 1.13763809 (0.010 sec)
+Step 3000: loss = 0.84153533 (0.009 sec)
+Step 4000: loss = 0.62400085 (0.009 sec)
+Step 5000: loss = 0.53052306 (0.009 sec)
+Step 6000: loss = 0.43792075 (0.008 sec)
+Step 7000: loss = 0.40052736 (0.008 sec)
+Step 8000: loss = 0.37105340 (0.009 sec)
+Step 9000: loss = 0.33139575 (0.009 sec)
+Step 10000: loss = 0.28221124 (0.009 sec)
+Step 11000: loss = 0.27584571 (0.015 sec)
+Step 12000: loss = 0.24464935 (0.010 sec)
+Step 13000: loss = 0.22307076 (0.008 sec)
+Step 14000: loss = 0.23010975 (0.011 sec)
+Step 15000: loss = 0.22118649 (0.008 sec)
+Step 16000: loss = 0.22811495 (0.009 sec)
+Step 17000: loss = 0.23646747 (0.010 sec)
+Step 18000: loss = 0.23026633 (0.009 sec)
+Step 19000: loss = 0.19680995 (0.009 sec)
+Step 20000: loss = 0.19445689 (0.010 sec)
+Step 21000: loss = 0.21427421 (0.009 sec)
+Step 22000: loss = 0.19265021 (0.018 sec)
+Step 23000: loss = 0.20613548 (0.009 sec)
+Step 24000: loss = 0.21197987 (0.008 sec)
+Step 25000: loss = 0.18037498 (0.010 sec)
+Step 26000: loss = 0.18851742 (0.009 sec)
+Step 27000: loss = 0.18947725 (0.009 sec)
+Step 28000: loss = 0.19098856 (0.009 sec)
+Step 29000: loss = 0.18191452 (0.009 sec)
+Step 30000: loss = 0.18930779 (0.009 sec)
+Step 31000: loss = 0.18317007 (0.009 sec)
+Step 32000: loss = 0.19377756 (0.009 sec)
+Step 33000: loss = 0.18168390 (0.019 sec)
+Step 34000: loss = 0.18937644 (0.010 sec)
+Step 35000: loss = 0.17793283 (0.010 sec)
+Step 36000: loss = 0.18242323 (0.009 sec)
+Step 37000: loss = 0.18097778 (0.010 sec)
+Step 38000: loss = 0.17919940 (0.009 sec)
+Step 39000: loss = 0.17260616 (0.009 sec)
+Step 40000: loss = 0.17411795 (0.009 sec)
+Step 41000: loss = 0.17577906 (0.011 sec)
+Step 42000: loss = 0.16521034 (0.010 sec)
+Step 43000: loss = 0.16970959 (0.009 sec)
+Step 44000: loss = 0.17464961 (0.020 sec)
+Step 45000: loss = 0.16417971 (0.009 sec)
+Step 46000: loss = 0.16421792 (0.010 sec)
+Step 47000: loss = 0.16607901 (0.011 sec)
+Step 48000: loss = 0.16984095 (0.009 sec)
+Step 49000: loss = 0.16719179 (0.010 sec)
+Step 50000: loss = 0.16148467 (0.009 sec)
+Step 51000: loss = 0.16408722 (0.011 sec)
+Step 52000: loss = 0.16142355 (0.010 sec)
+Step 53000: loss = 0.16829583 (0.009 sec)
+Step 54000: loss = 0.16354993 (0.009 sec)
+Step 55000: loss = 0.16463867 (0.015 sec)
+Step 56000: loss = 0.15743659 (0.009 sec)
+Step 57000: loss = 0.15235534 (0.010 sec)
+Step 58000: loss = 0.15934776 (0.009 sec)
+Step 59000: loss = 0.15757540 (0.009 sec)
+Step 60000: loss = 0.16325945 (0.011 sec)
+Step 61000: loss = 0.15787956 (0.010 sec)
+Step 62000: loss = 0.15464631 (0.009 sec)
+Step 63000: loss = 0.16332093 (0.009 sec)
+Step 64000: loss = 0.15643853 (0.008 sec)
+Step 65000: loss = 0.15160921 (0.009 sec)
+Step 66000: loss = 0.15697259 (0.015 sec)
+Step 67000: loss = 0.15541597 (0.009 sec)
+Step 68000: loss = 0.15593810 (0.009 sec)
+Step 69000: loss = 0.15612991 (0.009 sec)
+Step 70000: loss = 0.15050799 (0.010 sec)
+Step 71000: loss = 0.15648088 (0.010 sec)
+Step 72000: loss = 0.15607187 (0.009 sec)
+Step 73000: loss = 0.15651199 (0.009 sec)
+Step 74000: loss = 0.15511186 (0.009 sec)
+Step 75000: loss = 0.15701407 (0.009 sec)
+Step 76000: loss = 0.15539503 (0.009 sec)
+Step 77000: loss = 0.15222336 (0.015 sec)
+Step 78000: loss = 0.15550935 (0.012 sec)
+Step 79000: loss = 0.15607367 (0.009 sec)
+Step 80000: loss = 0.15160903 (0.010 sec)
+Step 81000: loss = 0.15249322 (0.011 sec)
+Step 82000: loss = 0.15269276 (0.009 sec)
+Step 83000: loss = 0.15638399 (0.010 sec)
+Step 84000: loss = 0.15389749 (0.010 sec)
+Step 85000: loss = 0.15520935 (0.009 sec)
+Step 86000: loss = 0.14325830 (0.010 sec)
+Step 87000: loss = 0.15240318 (0.008 sec)
+Step 88000: loss = 0.15278152 (0.023 sec)
+Step 89000: loss = 0.14672096 (0.010 sec)
+Step 90000: loss = 0.15192519 (0.008 sec)
+Step 91000: loss = 0.14908905 (0.009 sec)
+Step 92000: loss = 0.16021040 (0.010 sec)
+Step 93000: loss = 0.14674728 (0.009 sec)
+Step 94000: loss = 0.14359733 (0.009 sec)
+Step 95000: loss = 0.15374190 (0.009 sec)
+Step 96000: loss = 0.14777990 (0.010 sec)
+Step 97000: loss = 0.15002535 (0.008 sec)
+Step 98000: loss = 0.14675707 (0.010 sec)
+Step 99000: loss = 0.15001091 (0.014 sec)
+Train loss (w reg) on all data: [ 0.14884128]
+Train loss (w/o reg) on all data: [ 0.03202004]
+Test loss (w/o reg) on all data: [ 0.0963474]
+Train acc on all data:  [ 0.99963636]
+Test acc on all data:   [ 0.9734]
+Norm of the mean of gradients: 0.0238771
+Norm of the params: 15.406
+Step 100000: loss = 0.14693654 (0.008 sec)
+Step 101000: loss = 0.14388603 (0.010 sec)
+Step 102000: loss = 0.14598104 (0.009 sec)
+Step 103000: loss = 0.14745939 (0.010 sec)
+Step 104000: loss = 0.15112376 (0.009 sec)
+Step 105000: loss = 0.14519650 (0.009 sec)
+Step 106000: loss = 0.14885674 (0.008 sec)
+Step 107000: loss = 0.14913759 (0.010 sec)
+Step 108000: loss = 0.14616902 (0.009 sec)
+Step 109000: loss = 0.15038376 (0.009 sec)
+Step 110000: loss = 0.14898236 (0.009 sec)
+Step 111000: loss = 0.14740852 (0.027 sec)
+Step 112000: loss = 0.14566424 (0.009 sec)
+Step 113000: loss = 0.14349215 (0.011 sec)
+Step 114000: loss = 0.14387347 (0.011 sec)
+Step 115000: loss = 0.14922810 (0.009 sec)
+Step 116000: loss = 0.14726600 (0.009 sec)
+Step 117000: loss = 0.14615802 (0.009 sec)
+Step 118000: loss = 0.14248364 (0.008 sec)
+Step 119000: loss = 0.14897209 (0.009 sec)
+Step 120000: loss = 0.14873016 (0.009 sec)
+Step 121000: loss = 0.14411242 (0.010 sec)
+Step 122000: loss = 0.14386424 (0.016 sec)
+Step 123000: loss = 0.15219493 (0.008 sec)
+Step 124000: loss = 0.14150232 (0.011 sec)
+Step 125000: loss = 0.14927325 (0.009 sec)
+Step 126000: loss = 0.14062068 (0.008 sec)
+Step 127000: loss = 0.14249051 (0.008 sec)
+Step 128000: loss = 0.14626312 (0.009 sec)
+Step 129000: loss = 0.14263062 (0.009 sec)
+Step 130000: loss = 0.14249399 (0.009 sec)
+Step 131000: loss = 0.14520508 (0.014 sec)
+Step 132000: loss = 0.14904112 (0.009 sec)
+Step 133000: loss = 0.14668402 (0.016 sec)
+Step 134000: loss = 0.14619641 (0.008 sec)
+Step 135000: loss = 0.14451653 (0.009 sec)
+Step 136000: loss = 0.14526129 (0.009 sec)
+Step 137000: loss = 0.14278136 (0.009 sec)
+Step 138000: loss = 0.14602549 (0.009 sec)
+Step 139000: loss = 0.14338456 (0.009 sec)
+Step 140000: loss = 0.15033758 (0.010 sec)
+Step 141000: loss = 0.14444414 (0.009 sec)
+Step 142000: loss = 0.14200006 (0.009 sec)
+Step 143000: loss = 0.14736903 (0.009 sec)
+Step 144000: loss = 0.14633760 (0.016 sec)
+Step 145000: loss = 0.14790678 (0.009 sec)
+Step 146000: loss = 0.15328526 (0.010 sec)
+Step 147000: loss = 0.14420429 (0.009 sec)
+Step 148000: loss = 0.14846194 (0.009 sec)
+Step 149000: loss = 0.14253172 (0.010 sec)
+Step 150000: loss = 0.14434476 (0.009 sec)
+Step 151000: loss = 0.14802770 (0.009 sec)
+Step 152000: loss = 0.14398205 (0.008 sec)
+Step 153000: loss = 0.14691003 (0.009 sec)
+Step 154000: loss = 0.14748937 (0.009 sec)
+Step 155000: loss = 0.14685628 (0.016 sec)
+Step 156000: loss = 0.14624274 (0.009 sec)
+Step 157000: loss = 0.14894949 (0.010 sec)
+Step 158000: loss = 0.14858061 (0.010 sec)
+Step 159000: loss = 0.14993979 (0.009 sec)
+Step 160000: loss = 0.14353108 (0.010 sec)
+Step 161000: loss = 0.14622334 (0.010 sec)
+Step 162000: loss = 0.14508595 (0.009 sec)
+Step 163000: loss = 0.14329056 (0.009 sec)
+Step 164000: loss = 0.14355280 (0.008 sec)
+Step 165000: loss = 0.14319725 (0.010 sec)
+Step 166000: loss = 0.15031800 (0.018 sec)
+Step 167000: loss = 0.14713155 (0.009 sec)
+Step 168000: loss = 0.14090891 (0.009 sec)
+Step 169000: loss = 0.14520366 (0.008 sec)
+Step 170000: loss = 0.14642254 (0.009 sec)
+Step 171000: loss = 0.15114519 (0.009 sec)
+Step 172000: loss = 0.14122540 (0.009 sec)
+Step 173000: loss = 0.14493366 (0.009 sec)
+Step 174000: loss = 0.15054268 (0.009 sec)
+Step 175000: loss = 0.14282437 (0.009 sec)
+Step 176000: loss = 0.15028659 (0.011 sec)
+Step 177000: loss = 0.14927752 (0.015 sec)
+Step 178000: loss = 0.14666477 (0.010 sec)
+Step 179000: loss = 0.14576033 (0.009 sec)
+Step 180000: loss = 0.14479870 (0.009 sec)
+Step 181000: loss = 0.14640616 (0.008 sec)
+Step 182000: loss = 0.14075452 (0.009 sec)
+Step 183000: loss = 0.14698301 (0.008 sec)
+Step 184000: loss = 0.14619422 (0.009 sec)
+Step 185000: loss = 0.14421834 (0.009 sec)
+Step 186000: loss = 0.14721976 (0.009 sec)
+Step 187000: loss = 0.14480399 (0.008 sec)
+Step 188000: loss = 0.15183592 (0.016 sec)
+Step 189000: loss = 0.14147130 (0.010 sec)
+Step 190000: loss = 0.14770034 (0.009 sec)
+Step 191000: loss = 0.14369138 (0.008 sec)
+Step 192000: loss = 0.14439298 (0.012 sec)
+Step 193000: loss = 0.14708139 (0.009 sec)
+Step 194000: loss = 0.14189915 (0.009 sec)
+Step 195000: loss = 0.14409637 (0.009 sec)
+Step 196000: loss = 0.14194611 (0.009 sec)
+Step 197000: loss = 0.14933775 (0.012 sec)
+Step 198000: loss = 0.14199880 (0.010 sec)
+Step 199000: loss = 0.14191031 (0.015 sec)
+Train loss (w reg) on all data: [ 0.14512829]
+Train loss (w/o reg) on all data: [ 0.03072529]
+Test loss (w/o reg) on all data: [ 0.09466603]
+Train acc on all data:  [ 0.99945455]
+Test acc on all data:   [ 0.9743]
+Norm of the mean of gradients: 0.024836
+Norm of the params: 15.2615
+Step 200000: loss = 0.14344631 (0.010 sec)
+Step 201000: loss = 0.14323762 (0.009 sec)
+Step 202000: loss = 0.14493650 (0.009 sec)
+Step 203000: loss = 0.14580414 (0.009 sec)
+Step 204000: loss = 0.14112876 (0.010 sec)
+Step 205000: loss = 0.14672074 (0.009 sec)
+Step 206000: loss = 0.14249527 (0.009 sec)
+Step 207000: loss = 0.14458153 (0.008 sec)
+Step 208000: loss = 0.14302851 (0.010 sec)
+Step 209000: loss = 0.14579235 (0.009 sec)
+Step 210000: loss = 0.14227986 (0.009 sec)
+Step 211000: loss = 0.14197616 (0.016 sec)
+Step 212000: loss = 0.14376006 (0.009 sec)
+Step 213000: loss = 0.13943949 (0.010 sec)
+Step 214000: loss = 0.14835668 (0.009 sec)
+Step 215000: loss = 0.15313482 (0.009 sec)
+Step 216000: loss = 0.14442062 (0.010 sec)
+Step 217000: loss = 0.14179677 (0.009 sec)
+Step 218000: loss = 0.14781600 (0.009 sec)
+Step 219000: loss = 0.14634310 (0.010 sec)
+Step 220000: loss = 0.14466837 (0.009 sec)
+Step 221000: loss = 0.14626864 (0.010 sec)
+Step 222000: loss = 0.14077432 (0.016 sec)
+Step 223000: loss = 0.14662425 (0.009 sec)
+Step 224000: loss = 0.14482972 (0.011 sec)
+Step 225000: loss = 0.14188388 (0.010 sec)
+Step 226000: loss = 0.14585200 (0.009 sec)
+Step 227000: loss = 0.14236386 (0.009 sec)
+Step 228000: loss = 0.14472340 (0.009 sec)
+Step 229000: loss = 0.13848434 (0.009 sec)
+Step 230000: loss = 0.14249791 (0.009 sec)
+Step 231000: loss = 0.14626728 (0.008 sec)
+Step 232000: loss = 0.14318562 (0.008 sec)
+Step 233000: loss = 0.14287484 (0.017 sec)
+Step 234000: loss = 0.14523412 (0.008 sec)
+Step 235000: loss = 0.14180717 (0.009 sec)
+Step 236000: loss = 0.14360905 (0.008 sec)
+Step 237000: loss = 0.14622393 (0.009 sec)
+Step 238000: loss = 0.14040345 (0.009 sec)
+Step 239000: loss = 0.13960011 (0.009 sec)
+Step 240000: loss = 0.14294986 (0.014 sec)
+Step 241000: loss = 0.14082351 (0.009 sec)
+Step 242000: loss = 0.14571825 (0.009 sec)
+Step 243000: loss = 0.14707175 (0.020 sec)
+Step 244000: loss = 0.14294316 (0.016 sec)
+Step 245000: loss = 0.14834860 (0.011 sec)
+Step 246000: loss = 0.14951999 (0.010 sec)
+Step 247000: loss = 0.14973572 (0.008 sec)
+Step 248000: loss = 0.14325435 (0.010 sec)
+Step 249000: loss = 0.14527905 (0.009 sec)
+Step 250000: loss = 0.14454418 (0.008 sec)
+Step 251000: loss = 0.14250064 (0.008 sec)
+Step 252000: loss = 0.13975275 (0.009 sec)
+Step 253000: loss = 0.14339060 (0.008 sec)
+Step 254000: loss = 0.14680114 (0.009 sec)
+Step 255000: loss = 0.14423804 (0.016 sec)
+Step 256000: loss = 0.14097634 (0.009 sec)
+Step 257000: loss = 0.14375825 (0.009 sec)
+Step 258000: loss = 0.14709839 (0.008 sec)
+Step 259000: loss = 0.14339283 (0.009 sec)
+Step 260000: loss = 0.14112000 (0.009 sec)
+Step 261000: loss = 0.14447013 (0.009 sec)
+Step 262000: loss = 0.14126384 (0.010 sec)
+Step 263000: loss = 0.14027868 (0.010 sec)
+Step 264000: loss = 0.14306957 (0.009 sec)
+Step 265000: loss = 0.14247292 (0.010 sec)
+Step 266000: loss = 0.15258773 (0.017 sec)
+Step 267000: loss = 0.14732128 (0.009 sec)
+Step 268000: loss = 0.14637592 (0.010 sec)
+Step 269000: loss = 0.14458081 (0.010 sec)
+Step 270000: loss = 0.14515552 (0.009 sec)
+Step 271000: loss = 0.14315268 (0.009 sec)
+Step 272000: loss = 0.14376447 (0.010 sec)
+Step 273000: loss = 0.14215270 (0.010 sec)
+Step 274000: loss = 0.14136267 (0.008 sec)
+Step 275000: loss = 0.14431469 (0.008 sec)
+Step 276000: loss = 0.14206815 (0.009 sec)
+Step 277000: loss = 0.14376482 (0.015 sec)
+Step 278000: loss = 0.14144231 (0.008 sec)
+Step 279000: loss = 0.14399490 (0.009 sec)
+Step 280000: loss = 0.14883883 (0.009 sec)
+Step 281000: loss = 0.14808646 (0.008 sec)
+Step 282000: loss = 0.13969308 (0.009 sec)
+Step 283000: loss = 0.14368214 (0.010 sec)
+Step 284000: loss = 0.14130606 (0.009 sec)
+Step 285000: loss = 0.13830179 (0.010 sec)
+Step 286000: loss = 0.14282443 (0.008 sec)
+Step 287000: loss = 0.15234432 (0.009 sec)
+Step 288000: loss = 0.14567995 (0.014 sec)
+Step 289000: loss = 0.14212333 (0.009 sec)
+Step 290000: loss = 0.14223507 (0.010 sec)
+Step 291000: loss = 0.14151374 (0.008 sec)
+Step 292000: loss = 0.14364935 (0.009 sec)
+Step 293000: loss = 0.14174640 (0.009 sec)
+Step 294000: loss = 0.13950516 (0.009 sec)
+Step 295000: loss = 0.14233352 (0.009 sec)
+Step 296000: loss = 0.14745285 (0.011 sec)
+Step 297000: loss = 0.14222720 (0.010 sec)
+Step 298000: loss = 0.14089938 (0.009 sec)
+Step 299000: loss = 0.14235570 (0.016 sec)
+Train loss (w reg) on all data: [ 0.14452988]
+Train loss (w/o reg) on all data: [ 0.03051895]
+Test loss (w/o reg) on all data: [ 0.09431155]
+Train acc on all data:  [ 0.99963636]
+Test acc on all data:   [ 0.9745]
+Norm of the mean of gradients: 0.00306176
+Norm of the params: 15.2377
+Step 300000: loss = 0.14292407 (0.009 sec)
+Step 301000: loss = 0.14502314 (0.009 sec)
+Step 302000: loss = 0.14259566 (0.009 sec)
+Step 303000: loss = 0.14419819 (0.008 sec)
+Step 304000: loss = 0.14098726 (0.009 sec)
+Step 305000: loss = 0.14907089 (0.010 sec)
+Step 306000: loss = 0.14273320 (0.009 sec)
+Step 307000: loss = 0.13842832 (0.010 sec)
+Step 308000: loss = 0.14435644 (0.008 sec)
+Step 309000: loss = 0.14117028 (0.009 sec)
+Step 310000: loss = 0.14438663 (0.008 sec)
+Step 311000: loss = 0.14627872 (0.017 sec)
+Step 312000: loss = 0.14008670 (0.009 sec)
+Step 313000: loss = 0.15024896 (0.009 sec)
+Step 314000: loss = 0.14185062 (0.009 sec)
+Step 315000: loss = 0.14950359 (0.010 sec)
+Step 316000: loss = 0.14839183 (0.010 sec)
+Step 317000: loss = 0.14174698 (0.009 sec)
+Step 318000: loss = 0.14852922 (0.009 sec)
+Step 319000: loss = 0.14893995 (0.008 sec)
+Step 320000: loss = 0.14718680 (0.008 sec)
+Step 321000: loss = 0.14265656 (0.009 sec)
+Step 322000: loss = 0.14587021 (0.022 sec)
+Step 323000: loss = 0.14173816 (0.010 sec)
+Step 324000: loss = 0.14496659 (0.010 sec)
+Step 325000: loss = 0.14163397 (0.010 sec)
+Step 326000: loss = 0.14464664 (0.008 sec)
+Step 327000: loss = 0.14716063 (0.008 sec)
+Step 328000: loss = 0.14700715 (0.009 sec)
+Step 329000: loss = 0.13970257 (0.011 sec)
+Step 330000: loss = 0.14219734 (0.010 sec)
+Step 331000: loss = 0.14721102 (0.009 sec)
+Step 332000: loss = 0.14625631 (0.009 sec)
+Step 333000: loss = 0.14524317 (0.017 sec)
+Step 334000: loss = 0.14123142 (0.009 sec)
+Step 335000: loss = 0.14735521 (0.008 sec)
+Step 336000: loss = 0.14439440 (0.011 sec)
+Step 337000: loss = 0.14732687 (0.008 sec)
+Step 338000: loss = 0.14515589 (0.010 sec)
+Step 339000: loss = 0.13949022 (0.009 sec)
+Step 340000: loss = 0.14582664 (0.009 sec)
+Step 341000: loss = 0.14368871 (0.008 sec)
+Step 342000: loss = 0.14555320 (0.010 sec)
+Step 343000: loss = 0.13975123 (0.009 sec)
+Step 344000: loss = 0.15090655 (0.016 sec)
+Step 345000: loss = 0.14262053 (0.009 sec)
+Step 346000: loss = 0.14234801 (0.008 sec)
+Step 347000: loss = 0.14519921 (0.010 sec)
+Step 348000: loss = 0.14570661 (0.009 sec)
+Step 349000: loss = 0.14269398 (0.008 sec)
+Step 350000: loss = 0.14043009 (0.009 sec)
+Step 351000: loss = 0.14277276 (0.010 sec)
+Step 352000: loss = 0.14116490 (0.009 sec)
+Step 353000: loss = 0.14497384 (0.010 sec)
+Step 354000: loss = 0.14683290 (0.011 sec)
+Step 355000: loss = 0.14260380 (0.015 sec)
+Step 356000: loss = 0.15203795 (0.009 sec)
+Step 357000: loss = 0.14306530 (0.011 sec)
+Step 358000: loss = 0.14517114 (0.009 sec)
+Step 359000: loss = 0.14501663 (0.008 sec)
+Step 360000: loss = 0.14418387 (0.009 sec)
+Step 361000: loss = 0.13932514 (0.010 sec)
+Step 362000: loss = 0.14738604 (0.010 sec)
+Step 363000: loss = 0.14364117 (0.009 sec)
+Step 364000: loss = 0.14722812 (0.008 sec)
+Step 365000: loss = 0.14443825 (0.008 sec)
+Step 366000: loss = 0.14159682 (0.019 sec)
+Step 367000: loss = 0.14950125 (0.009 sec)
+Step 368000: loss = 0.14282939 (0.010 sec)
+Step 369000: loss = 0.14271003 (0.009 sec)
+Step 370000: loss = 0.14232065 (0.009 sec)
+Step 371000: loss = 0.14336824 (0.009 sec)
+Step 372000: loss = 0.14153297 (0.009 sec)
+Step 373000: loss = 0.14427258 (0.008 sec)
+Step 374000: loss = 0.14405330 (0.009 sec)
+Step 375000: loss = 0.14667228 (0.010 sec)
+Step 376000: loss = 0.14654930 (0.010 sec)
+Step 377000: loss = 0.15094870 (0.015 sec)
+Step 378000: loss = 0.14517835 (0.009 sec)
+Step 379000: loss = 0.14796217 (0.010 sec)
+Step 380000: loss = 0.14143866 (0.008 sec)
+Step 381000: loss = 0.14776559 (0.009 sec)
+Step 382000: loss = 0.15034491 (0.009 sec)
+Step 383000: loss = 0.14529727 (0.008 sec)
+Step 384000: loss = 0.14708085 (0.008 sec)
+Step 385000: loss = 0.14649116 (0.010 sec)
+Step 386000: loss = 0.14628908 (0.010 sec)
+Step 387000: loss = 0.14451988 (0.009 sec)
+Step 388000: loss = 0.14081241 (0.026 sec)
+Step 389000: loss = 0.14334446 (0.008 sec)
+Step 390000: loss = 0.14626268 (0.009 sec)
+Step 391000: loss = 0.14429596 (0.009 sec)
+Step 392000: loss = 0.15017951 (0.009 sec)
+Step 393000: loss = 0.14464578 (0.008 sec)
+Step 394000: loss = 0.14463279 (0.008 sec)
+Step 395000: loss = 0.14498615 (0.009 sec)
+Step 396000: loss = 0.14371067 (0.008 sec)
+Step 397000: loss = 0.14671358 (0.009 sec)
+Step 398000: loss = 0.14894177 (0.009 sec)
+Step 399000: loss = 0.14457054 (0.017 sec)
+Train loss (w reg) on all data: [ 0.14432289]
+Train loss (w/o reg) on all data: [ 0.03045063]
+Test loss (w/o reg) on all data: [ 0.09419945]
+Train acc on all data:  [ 0.99963636]
+Test acc on all data:   [ 0.9747]
+Norm of the mean of gradients: 0.00452496
+Norm of the params: 15.2293
+Step 400000: loss = 0.14274415 (0.009 sec)
+Step 401000: loss = 0.14456707 (0.009 sec)
+Step 402000: loss = 0.14237212 (0.009 sec)
+Step 403000: loss = 0.14801267 (0.010 sec)
+Step 404000: loss = 0.13918774 (0.009 sec)
+Step 405000: loss = 0.14288054 (0.011 sec)
+Step 406000: loss = 0.13933550 (0.008 sec)
+Step 407000: loss = 0.14940633 (0.010 sec)
+Step 408000: loss = 0.14927649 (0.009 sec)
+Step 409000: loss = 0.14838715 (0.009 sec)
+Step 410000: loss = 0.13967620 (0.008 sec)
+Step 411000: loss = 0.14885031 (0.020 sec)
+Step 412000: loss = 0.14353250 (0.009 sec)
+Step 413000: loss = 0.14286359 (0.013 sec)
+Step 414000: loss = 0.14451800 (0.008 sec)
+Step 415000: loss = 0.14980343 (0.009 sec)
+Step 416000: loss = 0.14229175 (0.009 sec)
+Step 417000: loss = 0.14148805 (0.009 sec)
+Step 418000: loss = 0.14100814 (0.009 sec)
+Step 419000: loss = 0.14571348 (0.009 sec)
+Step 420000: loss = 0.14135937 (0.009 sec)
+Step 421000: loss = 0.13919650 (0.009 sec)
+Step 422000: loss = 0.14421040 (0.014 sec)
+Step 423000: loss = 0.14355959 (0.009 sec)
+Step 424000: loss = 0.14154817 (0.009 sec)
+Step 425000: loss = 0.14789666 (0.009 sec)
+Step 426000: loss = 0.14204453 (0.009 sec)
+Step 427000: loss = 0.13924751 (0.009 sec)
+Step 428000: loss = 0.14545910 (0.009 sec)
+Step 429000: loss = 0.14322475 (0.009 sec)
+Step 430000: loss = 0.14519307 (0.009 sec)
+Step 431000: loss = 0.14238778 (0.008 sec)
+Step 432000: loss = 0.14777999 (0.009 sec)
+Step 433000: loss = 0.14317493 (0.019 sec)
+Step 434000: loss = 0.14099589 (0.009 sec)
+Step 435000: loss = 0.14353693 (0.010 sec)
+Step 436000: loss = 0.14040951 (0.008 sec)
+Step 437000: loss = 0.14561893 (0.008 sec)
+Step 438000: loss = 0.14698103 (0.009 sec)
+Step 439000: loss = 0.14578697 (0.009 sec)
+Step 440000: loss = 0.14567342 (0.009 sec)
+Step 441000: loss = 0.14147019 (0.009 sec)
+Step 442000: loss = 0.14292985 (0.008 sec)
+Step 443000: loss = 0.14870615 (0.010 sec)
+Step 444000: loss = 0.14569347 (0.015 sec)
+Step 445000: loss = 0.14602610 (0.009 sec)
+Step 446000: loss = 0.14468271 (0.009 sec)
+Step 447000: loss = 0.13950418 (0.009 sec)
+Step 448000: loss = 0.14307006 (0.009 sec)
+Step 449000: loss = 0.14481419 (0.009 sec)
+Step 450000: loss = 0.14260350 (0.009 sec)
+Step 451000: loss = 0.14458536 (0.009 sec)
+Step 452000: loss = 0.14245884 (0.009 sec)
+Step 453000: loss = 0.14079677 (0.009 sec)
+Step 454000: loss = 0.14034271 (0.009 sec)
+Step 455000: loss = 0.13819212 (0.015 sec)
+Step 456000: loss = 0.15040313 (0.008 sec)
+Step 457000: loss = 0.14625731 (0.009 sec)
+Step 458000: loss = 0.14256179 (0.008 sec)
+Step 459000: loss = 0.14492327 (0.009 sec)
+Step 460000: loss = 0.15443894 (0.009 sec)
+Step 461000: loss = 0.14234218 (0.009 sec)
+Step 462000: loss = 0.14046296 (0.009 sec)
+Step 463000: loss = 0.15022847 (0.009 sec)
+Step 464000: loss = 0.14286608 (0.009 sec)
+Step 465000: loss = 0.14371143 (0.009 sec)
+Step 466000: loss = 0.14121380 (0.013 sec)
+Step 467000: loss = 0.15299490 (0.009 sec)
+Step 468000: loss = 0.14217231 (0.009 sec)
+Step 469000: loss = 0.14624378 (0.009 sec)
+Step 470000: loss = 0.15061642 (0.009 sec)
+Step 471000: loss = 0.14328419 (0.009 sec)
+Step 472000: loss = 0.13566791 (0.009 sec)
+Step 473000: loss = 0.14836681 (0.008 sec)
+Step 474000: loss = 0.14517654 (0.008 sec)
+Step 475000: loss = 0.14805195 (0.008 sec)
+Step 476000: loss = 0.14425068 (0.009 sec)
+Step 477000: loss = 0.14752498 (0.015 sec)
+Step 478000: loss = 0.14579068 (0.008 sec)
+Step 479000: loss = 0.14712763 (0.008 sec)
+Step 480000: loss = 0.15011945 (0.009 sec)
+Step 481000: loss = 0.14624274 (0.009 sec)
+Step 482000: loss = 0.14327256 (0.008 sec)
+Step 483000: loss = 0.14431012 (0.009 sec)
+Step 484000: loss = 0.14970182 (0.009 sec)
+Step 485000: loss = 0.14545968 (0.009 sec)
+Step 486000: loss = 0.14587235 (0.009 sec)
+Step 487000: loss = 0.14001824 (0.009 sec)
+Step 488000: loss = 0.14245489 (0.015 sec)
+Step 489000: loss = 0.14288332 (0.009 sec)
+Step 490000: loss = 0.14163867 (0.009 sec)
+Step 491000: loss = 0.14526774 (0.008 sec)
+Step 492000: loss = 0.14863843 (0.009 sec)
+Step 493000: loss = 0.14144655 (0.009 sec)
+Step 494000: loss = 0.14187698 (0.009 sec)
+Step 495000: loss = 0.14553502 (0.009 sec)
+Step 496000: loss = 0.14265722 (0.009 sec)
+Step 497000: loss = 0.14281456 (0.008 sec)
+Step 498000: loss = 0.14482602 (0.009 sec)
+Step 499000: loss = 0.14349654 (0.014 sec)
+Train loss (w reg) on all data: [ 0.14412061]
+Train loss (w/o reg) on all data: [ 0.03038343]
+Test loss (w/o reg) on all data: [ 0.09407837]
+Train acc on all data:  [ 0.99963636]
+Test acc on all data:   [ 0.9746]
+Norm of the mean of gradients: 0.00331002
+Norm of the params: 15.2211
+Model output/mnist_small_all_cnn_c-checkpoint-499999 loaded. Sanity checks ---
+Train loss (w reg) on all data: [ 0.14412061]
+Train loss (w/o reg) on all data: [ 0.03038343]
+Test loss (w/o reg) on all data: [ 0.09407837]
+Train acc on all data:  [ 0.99963636]
+Test acc on all data:   [ 0.9746]
+Norm of the mean of gradients: 0.00331
+Norm of the params: 15.2211
+Test label: 6
+Norm of test gradient: 131.558
+Function value: 70669.6586914
+Split function value: 76356.9375, -5687.28
+Predicted loss diff on train_idx 5: 0.0445686035156
+Function value: 11963.6003418
+Split function value: 15153.7421875, -3190.14
+Predicted loss diff on train_idx 5: 0.00502327866988
+Function value: 208.817382812
+Split function value: 1493.59912109, -1284.78
+Predicted loss diff on train_idx 5: 0.00396699905396
+Function value: -415.53326416
+Split function value: 729.982177734, -1145.52
+Predicted loss diff on train_idx 5: 0.00153155413541
+Function value: -637.371307373
+Split function value: 328.420623779, -965.792
+Predicted loss diff on train_idx 5: -0.000184450713071
+Function value: -2469.00048828
+Split function value: 841.572143555, -3310.57
+Predicted loss diff on train_idx 5: -0.00318393950029
+Function value: -3813.59545898
+Split function value: 3855.88525391, -7669.48
+Predicted loss diff on train_idx 5: -0.00804848965732
+Function value: -3914.80761719
+Split function value: 3629.65966797, -7544.47
+Predicted loss diff on train_idx 5: -0.00551919555664
+Function value: -3942.94824219
+Split function value: 3930.73535156, -7873.68
+Predicted loss diff on train_idx 5: -0.00630772607977
+Function value: -3946.42382812
+Split function value: 3867.31884766, -7813.74
+Predicted loss diff on train_idx 5: -0.00603593028675
+Function value: -3947.74829102
+Split function value: 3941.61523438, -7889.36
+Predicted loss diff on train_idx 5: -0.00601149333607
+Function value: -3947.85009766
+Split function value: 3942.84228516, -7890.69
+Predicted loss diff on train_idx 5: -0.00609797668457
+Function value: -3947.87084961
+Split function value: 3947.26000977, -7895.13
+Predicted loss diff on train_idx 5: -0.00610304607045
+Function value: -3947.87402344
+Split function value: 3946.25048828, -7894.12
+Predicted loss diff on train_idx 5: -0.0060976375233
+Function value: -3947.87475586
+Split function value: 3948.0222168, -7895.9
+Predicted loss diff on train_idx 5: -0.00609932986173
+Function value: -3947.8762207
+Split function value: 3947.90844727, -7895.78
+Predicted loss diff on train_idx 5: -0.0060978123058
+Function value: -3947.87597656
+Split function value: 3947.84765625, -7895.72
+Predicted loss diff on train_idx 5: -0.00609766041149
+Function value: -3947.8762207
+Split function value: 3947.85668945, -7895.73
+Predicted loss diff on train_idx 5: -0.00609761879661
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: -3947.876221
+         Iterations: 18
+         Function evaluations: 46
+         Gradient evaluations: 53
+         Hessian evaluations: 388
+Saved inverse HVP to output/mnist_small_all_cnn_c-cg-normal_loss-test-[6558].npz
+Inverse HVP took 351.446910143 sec
+Multiplying by 5500 train examples took 32.5397889614 sec
+Sanity check: what happens if you train the model a bit more?
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25107
+Difference in test loss after retraining     : 0.00214577
+===
+Total loss on training set with original model    : 0.144121
+Total loss on training with retrained model   : 0.144061
+Difference in train loss after retraining     : -5.96792e-05
+These differences should be close to 0.
+
+=== #0 ===
+Retraining without train_idx 2052 (label 0):
+Diff in params: 0.0345487
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24784
+Difference in loss after retraining     : -0.00108003616333
+Predicted difference in loss (influence): -0.00895154432817
+=== #1 ===
+Retraining without train_idx 1861 (label 4):
+Diff in params: 0.0329667
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24812
+Difference in loss after retraining     : -0.000802040100098
+Predicted difference in loss (influence): -0.00904840712114
+=== #2 ===
+Retraining without train_idx 2937 (label 9):
+Diff in params: 0.0327527
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24435
+Difference in loss after retraining     : -0.00457239151001
+Predicted difference in loss (influence): -0.00906143119118
+=== #3 ===
+Retraining without train_idx 4746 (label 0):
+Diff in params: 0.0327242
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25334
+Difference in loss after retraining     : 0.00441551208496
+Predicted difference in loss (influence): 0.00906278783625
+=== #4 ===
+Retraining without train_idx 3598 (label 3):
+Diff in params: 0.0327223
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24152
+Difference in loss after retraining     : -0.00740337371826
+Predicted difference in loss (influence): -0.0091743739735
+=== #5 ===
+Retraining without train_idx 5064 (label 8):
+Diff in params: 0.0327184
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25675
+Difference in loss after retraining     : 0.00782442092896
+Predicted difference in loss (influence): 0.00922298708829
+=== #6 ===
+Retraining without train_idx 799 (label 9):
+Diff in params: 0.0334397
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25908
+Difference in loss after retraining     : 0.0101590156555
+Predicted difference in loss (influence): 0.00924384585294
+=== #7 ===
+Retraining without train_idx 3170 (label 2):
+Diff in params: 0.036973
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24471
+Difference in loss after retraining     : -0.00420951843262
+Predicted difference in loss (influence): -0.00933440052379
+=== #8 ===
+Retraining without train_idx 4458 (label 2):
+Diff in params: 0.0332703
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.2606
+Difference in loss after retraining     : 0.0116758346558
+Predicted difference in loss (influence): 0.00935920992765
+=== #9 ===
+Retraining without train_idx 4114 (label 8):
+Diff in params: 0.0327113
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25832
+Difference in loss after retraining     : 0.00940132141113
+Predicted difference in loss (influence): 0.00944697848233
+=== #10 ===
+Retraining without train_idx 4329 (label 6):
+Diff in params: 0.0324616
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.2581
+Difference in loss after retraining     : 0.00918054580688
+Predicted difference in loss (influence): 0.00945616288619
+=== #11 ===
+Retraining without train_idx 2664 (label 8):
+Diff in params: 0.0329114
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.23882
+Difference in loss after retraining     : -0.0101046562195
+Predicted difference in loss (influence): -0.00947939161821
+=== #12 ===
+Retraining without train_idx 1059 (label 2):
+Diff in params: 0.0376763
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25414
+Difference in loss after retraining     : 0.00521755218506
+Predicted difference in loss (influence): -0.00949318417636
+=== #13 ===
+Retraining without train_idx 3861 (label 6):
+Diff in params: 0.0327308
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26066
+Difference in loss after retraining     : 0.0117435455322
+Predicted difference in loss (influence): 0.00969152277166
+=== #14 ===
+Retraining without train_idx 4062 (label 8):
+Diff in params: 0.0346109
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25221
+Difference in loss after retraining     : 0.00328588485718
+Predicted difference in loss (influence): 0.00977775920521
+=== #15 ===
+Retraining without train_idx 596 (label 9):
+Diff in params: 0.0326577
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24527
+Difference in loss after retraining     : -0.00364971160889
+Predicted difference in loss (influence): -0.00986469407515
+=== #16 ===
+Retraining without train_idx 703 (label 5):
+Diff in params: 0.0325247
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25862
+Difference in loss after retraining     : 0.0097017288208
+Predicted difference in loss (influence): 0.00988568739458
+=== #17 ===
+Retraining without train_idx 1383 (label 7):
+Diff in params: 0.0335161
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.23956
+Difference in loss after retraining     : -0.00936126708984
+Predicted difference in loss (influence): -0.00992880040949
+=== #18 ===
+Retraining without train_idx 651 (label 3):
+Diff in params: 0.0338123
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24471
+Difference in loss after retraining     : -0.00421619415283
+Predicted difference in loss (influence): -0.00994742306796
+=== #19 ===
+Retraining without train_idx 1605 (label 7):
+Diff in params: 0.0340213
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.23649
+Difference in loss after retraining     : -0.0124354362488
+Predicted difference in loss (influence): -0.00995166917281
+=== #20 ===
+Retraining without train_idx 1210 (label 9):
+Diff in params: 0.0330244
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24763
+Difference in loss after retraining     : -0.00129079818726
+Predicted difference in loss (influence): -0.00996292530407
+=== #21 ===
+Retraining without train_idx 2848 (label 6):
+Diff in params: 0.0323698
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25198
+Difference in loss after retraining     : 0.00305461883545
+Predicted difference in loss (influence): 0.00997771800648
+=== #22 ===
+Retraining without train_idx 2763 (label 4):
+Diff in params: 0.0325638
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24293
+Difference in loss after retraining     : -0.00599431991577
+Predicted difference in loss (influence): -0.0100515296242
+=== #23 ===
+Retraining without train_idx 725 (label 2):
+Diff in params: 0.034403
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.2218
+Difference in loss after retraining     : -0.0271196365356
+Predicted difference in loss (influence): -0.0100608735518
+=== #24 ===
+Retraining without train_idx 3617 (label 1):
+Diff in params: 0.0356008
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24712
+Difference in loss after retraining     : -0.00180149078369
+Predicted difference in loss (influence): -0.0101106747714
+=== #25 ===
+Retraining without train_idx 3562 (label 9):
+Diff in params: 0.0329675
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26369
+Difference in loss after retraining     : 0.0147666931152
+Predicted difference in loss (influence): 0.0101114404852
+=== #26 ===
+Retraining without train_idx 4256 (label 4):
+Diff in params: 0.0329769
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.2457
+Difference in loss after retraining     : -0.00321674346924
+Predicted difference in loss (influence): -0.0101186093417
+=== #27 ===
+Retraining without train_idx 4374 (label 5):
+Diff in params: 0.032979
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25593
+Difference in loss after retraining     : 0.00700521469116
+Predicted difference in loss (influence): 0.0101638440219
+=== #28 ===
+Retraining without train_idx 2085 (label 8):
+Diff in params: 0.0329036
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25678
+Difference in loss after retraining     : 0.00786352157593
+Predicted difference in loss (influence): 0.0102693772749
+=== #29 ===
+Retraining without train_idx 5229 (label 2):
+Diff in params: 0.0324429
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24954
+Difference in loss after retraining     : 0.000619411468506
+Predicted difference in loss (influence): -0.0103506351818
+=== #30 ===
+Retraining without train_idx 4150 (label 6):
+Diff in params: 0.0332603
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26099
+Difference in loss after retraining     : 0.0120639801025
+Predicted difference in loss (influence): 0.0104592722112
+=== #31 ===
+Retraining without train_idx 5482 (label 5):
+Diff in params: 0.0329676
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.253
+Difference in loss after retraining     : 0.00407409667969
+Predicted difference in loss (influence): 0.0105327092951
+=== #32 ===
+Retraining without train_idx 2852 (label 1):
+Diff in params: 0.0327969
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.2564
+Difference in loss after retraining     : 0.00748205184937
+Predicted difference in loss (influence): 0.0107380246249
+=== #33 ===
+Retraining without train_idx 5003 (label 4):
+Diff in params: 0.0330018
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24175
+Difference in loss after retraining     : -0.00717449188232
+Predicted difference in loss (influence): -0.0108823256059
+=== #34 ===
+Retraining without train_idx 2865 (label 2):
+Diff in params: 0.033609
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24112
+Difference in loss after retraining     : -0.00780487060547
+Predicted difference in loss (influence): -0.0108844965154
+=== #35 ===
+Retraining without train_idx 2260 (label 8):
+Diff in params: 0.0326795
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25849
+Difference in loss after retraining     : 0.00956439971924
+Predicted difference in loss (influence): 0.0109322752519
+=== #36 ===
+Retraining without train_idx 3898 (label 1):
+Diff in params: 0.0332381
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25627
+Difference in loss after retraining     : 0.0073447227478
+Predicted difference in loss (influence): 0.0111464281949
+=== #37 ===
+Retraining without train_idx 1806 (label 5):
+Diff in params: 0.0336909
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25258
+Difference in loss after retraining     : 0.00366163253784
+Predicted difference in loss (influence): 0.0113409513994
+=== #38 ===
+Retraining without train_idx 531 (label 8):
+Diff in params: 0.0337474
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26218
+Difference in loss after retraining     : 0.0132598876953
+Predicted difference in loss (influence): 0.0114274583296
+=== #39 ===
+Retraining without train_idx 1103 (label 1):
+Diff in params: 0.0329314
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24826
+Difference in loss after retraining     : -0.00065803527832
+Predicted difference in loss (influence): -0.0114277225841
+=== #40 ===
+Retraining without train_idx 2236 (label 0):
+Diff in params: 0.0334671
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25883
+Difference in loss after retraining     : 0.00991344451904
+Predicted difference in loss (influence): 0.0117634804466
+=== #41 ===
+Retraining without train_idx 4643 (label 0):
+Diff in params: 0.0330363
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25589
+Difference in loss after retraining     : 0.0069694519043
+Predicted difference in loss (influence): 0.0118935061368
+=== #42 ===
+Retraining without train_idx 4869 (label 8):
+Diff in params: 0.0332514
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24813
+Difference in loss after retraining     : -0.000792026519775
+Predicted difference in loss (influence): -0.012003087824
+=== #43 ===
+Retraining without train_idx 674 (label 2):
+Diff in params: 0.0364116
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24674
+Difference in loss after retraining     : -0.0021800994873
+Predicted difference in loss (influence): 0.0120494856401
+=== #44 ===
+Retraining without train_idx 5331 (label 8):
+Diff in params: 0.0337492
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.23857
+Difference in loss after retraining     : -0.0103516578674
+Predicted difference in loss (influence): -0.0122072226784
+=== #45 ===
+Retraining without train_idx 5084 (label 9):
+Diff in params: 0.0325031
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26349
+Difference in loss after retraining     : 0.0145692825317
+Predicted difference in loss (influence): 0.0122120042281
+=== #46 ===
+Retraining without train_idx 2315 (label 5):
+Diff in params: 0.0337694
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.23946
+Difference in loss after retraining     : -0.00945901870728
+Predicted difference in loss (influence): -0.0124844249379
+=== #47 ===
+Retraining without train_idx 3871 (label 2):
+Diff in params: 0.0334363
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24749
+Difference in loss after retraining     : -0.00143480300903
+Predicted difference in loss (influence): -0.0125741008412
+=== #48 ===
+Retraining without train_idx 3979 (label 7):
+Diff in params: 0.0358966
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26682
+Difference in loss after retraining     : 0.0178961753845
+Predicted difference in loss (influence): 0.0126087466153
+=== #49 ===
+Retraining without train_idx 1160 (label 3):
+Diff in params: 0.0331026
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24573
+Difference in loss after retraining     : -0.00318908691406
+Predicted difference in loss (influence): -0.0127471438321
+=== #50 ===
+Retraining without train_idx 4644 (label 8):
+Diff in params: 0.0324445
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25782
+Difference in loss after retraining     : 0.00889730453491
+Predicted difference in loss (influence): 0.0129306626753
+=== #51 ===
+Retraining without train_idx 3466 (label 2):
+Diff in params: 0.0335678
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.2476
+Difference in loss after retraining     : -0.00132083892822
+Predicted difference in loss (influence): -0.0129834650213
+=== #52 ===
+Retraining without train_idx 1918 (label 5):
+Diff in params: 0.0339883
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25235
+Difference in loss after retraining     : 0.00342512130737
+Predicted difference in loss (influence): 0.0130485423695
+=== #53 ===
+Retraining without train_idx 1228 (label 5):
+Diff in params: 0.0328749
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25611
+Difference in loss after retraining     : 0.0071849822998
+Predicted difference in loss (influence): 0.0132850549871
+=== #54 ===
+Retraining without train_idx 2604 (label 9):
+Diff in params: 0.0328085
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26177
+Difference in loss after retraining     : 0.0128469467163
+Predicted difference in loss (influence): 0.0133141854026
+=== #55 ===
+Retraining without train_idx 3412 (label 8):
+Diff in params: 0.0328428
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25012
+Difference in loss after retraining     : 0.00120306015015
+Predicted difference in loss (influence): -0.0134799235951
+=== #56 ===
+Retraining without train_idx 1935 (label 6):
+Diff in params: 0.0337391
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24184
+Difference in loss after retraining     : -0.00708055496216
+Predicted difference in loss (influence): -0.0135880418257
+=== #57 ===
+Retraining without train_idx 677 (label 3):
+Diff in params: 0.038442
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25776
+Difference in loss after retraining     : 0.00883960723877
+Predicted difference in loss (influence): 0.0135970486728
+=== #58 ===
+Retraining without train_idx 1277 (label 9):
+Diff in params: 0.0363525
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26684
+Difference in loss after retraining     : 0.0179200172424
+Predicted difference in loss (influence): 0.0136068184593
+=== #59 ===
+Retraining without train_idx 3987 (label 8):
+Diff in params: 0.0343015
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26147
+Difference in loss after retraining     : 0.0125441551208
+Predicted difference in loss (influence): 0.0137528852983
+=== #60 ===
+Retraining without train_idx 3447 (label 7):
+Diff in params: 0.0361994
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25346
+Difference in loss after retraining     : 0.00453615188599
+Predicted difference in loss (influence): -0.0139359255704
+=== #61 ===
+Retraining without train_idx 2917 (label 9):
+Diff in params: 0.0335333
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26845
+Difference in loss after retraining     : 0.0195236206055
+Predicted difference in loss (influence): 0.0140286504572
+=== #62 ===
+Retraining without train_idx 1000 (label 3):
+Diff in params: 0.0327824
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24367
+Difference in loss after retraining     : -0.00525569915771
+Predicted difference in loss (influence): -0.014039650657
+=== #63 ===
+Retraining without train_idx 1596 (label 9):
+Diff in params: 0.0334605
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26241
+Difference in loss after retraining     : 0.0134878158569
+Predicted difference in loss (influence): 0.0141152898615
+=== #64 ===
+Retraining without train_idx 3180 (label 3):
+Diff in params: 0.0332522
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.23309
+Difference in loss after retraining     : -0.0158295631409
+Predicted difference in loss (influence): -0.0142229808461
+=== #65 ===
+Retraining without train_idx 2940 (label 6):
+Diff in params: 0.0339442
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26085
+Difference in loss after retraining     : 0.0119271278381
+Predicted difference in loss (influence): 0.014392987338
+=== #66 ===
+Retraining without train_idx 5276 (label 8):
+Diff in params: 0.0328987
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26011
+Difference in loss after retraining     : 0.0111885070801
+Predicted difference in loss (influence): 0.0147126048695
+=== #67 ===
+Retraining without train_idx 3548 (label 8):
+Diff in params: 0.0353716
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.23569
+Difference in loss after retraining     : -0.0132269859314
+Predicted difference in loss (influence): -0.0150498435281
+=== #68 ===
+Retraining without train_idx 2015 (label 9):
+Diff in params: 0.0328016
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26066
+Difference in loss after retraining     : 0.011739730835
+Predicted difference in loss (influence): 0.0152256150679
+=== #69 ===
+Retraining without train_idx 3178 (label 3):
+Diff in params: 0.0330737
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25956
+Difference in loss after retraining     : 0.0106377601624
+Predicted difference in loss (influence): 0.0152985742742
+=== #70 ===
+Retraining without train_idx 2563 (label 8):
+Diff in params: 0.0327676
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25153
+Difference in loss after retraining     : 0.00260639190674
+Predicted difference in loss (influence): 0.015307144165
+=== #71 ===
+Retraining without train_idx 56 (label 6):
+Diff in params: 0.0345952
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.2587
+Difference in loss after retraining     : 0.00977659225464
+Predicted difference in loss (influence): -0.0157597004284
+=== #72 ===
+Retraining without train_idx 882 (label 4):
+Diff in params: 0.0333067
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.2521
+Difference in loss after retraining     : 0.00317907333374
+Predicted difference in loss (influence): 0.0161836214933
+=== #73 ===
+Retraining without train_idx 4239 (label 7):
+Diff in params: 0.0339681
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.22889
+Difference in loss after retraining     : -0.0200309753418
+Predicted difference in loss (influence): -0.0161918334961
+=== #74 ===
+Retraining without train_idx 3376 (label 6):
+Diff in params: 0.0331979
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25927
+Difference in loss after retraining     : 0.0103478431702
+Predicted difference in loss (influence): 0.0163583498868
+=== #75 ===
+Retraining without train_idx 1551 (label 5):
+Diff in params: 0.0329348
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.2614
+Difference in loss after retraining     : 0.0124831199646
+Predicted difference in loss (influence): 0.016567915483
+=== #76 ===
+Retraining without train_idx 3792 (label 2):
+Diff in params: 0.0332513
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24048
+Difference in loss after retraining     : -0.00844240188599
+Predicted difference in loss (influence): -0.0165962052779
+=== #77 ===
+Retraining without train_idx 338 (label 4):
+Diff in params: 0.0338257
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24401
+Difference in loss after retraining     : -0.00490951538086
+Predicted difference in loss (influence): -0.0166473180597
+=== #78 ===
+Retraining without train_idx 1739 (label 3):
+Diff in params: 0.0348032
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.25708
+Difference in loss after retraining     : 0.0081615447998
+Predicted difference in loss (influence): 0.016834956776
+=== #79 ===
+Retraining without train_idx 4943 (label 0):
+Diff in params: 0.0335653
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24168
+Difference in loss after retraining     : -0.00723743438721
+Predicted difference in loss (influence): -0.0171758436723
+=== #80 ===
+Retraining without train_idx 5237 (label 7):
+Diff in params: 0.0358067
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.23964
+Difference in loss after retraining     : -0.00928497314453
+Predicted difference in loss (influence): -0.0177452642267
+=== #81 ===
+Retraining without train_idx 4649 (label 0):
+Diff in params: 0.0329408
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26348
+Difference in loss after retraining     : 0.0145606994629
+Predicted difference in loss (influence): 0.0182745749734
+=== #82 ===
+Retraining without train_idx 955 (label 7):
+Diff in params: 0.0331089
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.23533
+Difference in loss after retraining     : -0.013587474823
+Predicted difference in loss (influence): -0.0183123238303
+=== #83 ===
+Retraining without train_idx 4212 (label 2):
+Diff in params: 0.0331878
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.23433
+Difference in loss after retraining     : -0.0145893096924
+Predicted difference in loss (influence): -0.0184936773127
+=== #84 ===
+Retraining without train_idx 2919 (label 5):
+Diff in params: 0.0336844
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.23221
+Difference in loss after retraining     : -0.016716003418
+Predicted difference in loss (influence): -0.0204976473722
+=== #85 ===
+Retraining without train_idx 276 (label 8):
+Diff in params: 0.0335472
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26098
+Difference in loss after retraining     : 0.0120587348938
+Predicted difference in loss (influence): 0.020769522927
+=== #86 ===
+Retraining without train_idx 3570 (label 2):
+Diff in params: 0.0326451
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.23532
+Difference in loss after retraining     : -0.0136008262634
+Predicted difference in loss (influence): -0.0209283835671
+=== #87 ===
+Retraining without train_idx 1938 (label 3):
+Diff in params: 0.0352153
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.23916
+Difference in loss after retraining     : -0.00975704193115
+Predicted difference in loss (influence): -0.0209874323065
+=== #88 ===
+Retraining without train_idx 3950 (label 2):
+Diff in params: 0.0333643
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26891
+Difference in loss after retraining     : 0.019989490509
+Predicted difference in loss (influence): 0.0224530098655
+=== #89 ===
+Retraining without train_idx 767 (label 6):
+Diff in params: 0.0336605
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26632
+Difference in loss after retraining     : 0.0173978805542
+Predicted difference in loss (influence): 0.0225573508523
+=== #90 ===
+Retraining without train_idx 2942 (label 5):
+Diff in params: 0.0357428
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.21911
+Difference in loss after retraining     : -0.0298137664795
+Predicted difference in loss (influence): -0.0230324207653
+=== #91 ===
+Retraining without train_idx 2571 (label 0):
+Diff in params: 0.0346173
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.23431
+Difference in loss after retraining     : -0.0146150588989
+Predicted difference in loss (influence): -0.0243718178489
+=== #92 ===
+Retraining without train_idx 1957 (label 1):
+Diff in params: 0.035393
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.26023
+Difference in loss after retraining     : 0.0113067626953
+Predicted difference in loss (influence): 0.0246523936879
+=== #93 ===
+Retraining without train_idx 3065 (label 3):
+Diff in params: 0.0368727
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24211
+Difference in loss after retraining     : -0.00680685043335
+Predicted difference in loss (influence): -0.0255577559038
+=== #94 ===
+Retraining without train_idx 3284 (label 3):
+Diff in params: 0.0342948
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.27415
+Difference in loss after retraining     : 0.0252237319946
+Predicted difference in loss (influence): 0.0256873557351
+=== #95 ===
+Retraining without train_idx 4688 (label 6):
+Diff in params: 0.0332597
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.24153
+Difference in loss after retraining     : -0.00739574432373
+Predicted difference in loss (influence): -0.0257814192338
+=== #96 ===
+Retraining without train_idx 4482 (label 6):
+Diff in params: 0.036158
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.27246
+Difference in loss after retraining     : 0.0235342979431
+Predicted difference in loss (influence): 0.0273275590376
+=== #97 ===
+Retraining without train_idx 285 (label 6):
+Diff in params: 0.0378003
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.23652
+Difference in loss after retraining     : -0.0124006271362
+Predicted difference in loss (influence): -0.0303296980424
+=== #98 ===
+Retraining without train_idx 1286 (label 4):
+Diff in params: 0.0337533
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.27606
+Difference in loss after retraining     : 0.0271420478821
+Predicted difference in loss (influence): 0.0338878589977
+=== #99 ===
+Retraining without train_idx 1173 (label 6):
+Diff in params: 0.0352043
+Loss on test idx with original model    : 4.24892
+Loss on test idx with retrained model   : 4.29006
+Difference in loss after retraining     : 0.0411357879639
+Predicted difference in loss (influence): 0.0511760864258
+Correlation is 0.875446283888

@@ -1,12 +1,12 @@
 from __future__ import division
 from __future__ import print_function
 from __future__ import absolute_import
-from __future__ import unicode_literals  
-   
+from __future__ import unicode_literals
+
 import numpy as np
 import pandas as pd
 import tensorflow as tf
- 
+
 from scipy.stats import pearsonr
 from load_mnist import load_mnist
 
@@ -32,7 +32,7 @@ Y_test = data_sets.test.labels
 X_train, Y_train = dataset.filter_dataset(X_train, Y_train, pos_class, neg_class)
 X_test, Y_test = dataset.filter_dataset(X_test, Y_test, pos_class, neg_class)
 
-# Round dataset size off to the nearest 100, just for batching convenience 
+# Round dataset size off to the nearest 100, just for batching convenience
 num_train = int(np.floor(len(Y_train) / 100) * 100)
 num_test = int(np.floor(len(Y_test) / 100) * 100)
 X_train = X_train[:num_train, :]
@@ -53,7 +53,7 @@ input_dim = input_side * input_side * input_channels
 weight_decay = 0.01
 use_bias = False
 batch_size = 100
-initial_learning_rate = 0.001 
+initial_learning_rate = 0.001
 keep_probs = None
 decay_epochs = [1000, 10000]
 max_lbfgs_iter = 1000
@@ -124,7 +124,7 @@ for counter, temp in enumerate(temps):
         train_dir='output',
         log_dir='log',
         model_name='smooth_hinge_17_t-%s' % temp)
-  
+
     if temp == 0:
         model.load_checkpoint(iter_to_load=0)
     else:
@@ -132,21 +132,21 @@ for counter, temp in enumerate(temps):
         params_feed_dict[model.W_placeholder] = hinge_W
         model.sess.run(model.set_params_op, feed_dict=params_feed_dict)
         model.print_model_eval()
-        
+
     cur_params, cur_margins = model.sess.run([model.params, model.margin], feed_dict=model.all_train_feed_dict)
     cur_influences = model.get_influence_on_test_loss(
-        test_indices=[test_idx], 
-        train_idx=np.arange(num_train), 
+        test_indices=[test_idx],
+        train_idx=np.arange(num_train),
         force_refresh=False)
-    
+
     params[counter, :] = np.concatenate(cur_params)
     margins[counter, :] = cur_margins
     influences[counter, :] = cur_influences
-    
+
     if temp == 0:
         actual_loss_diffs[counter, :], predicted_loss_diffs[counter, :], indices_to_remove[counter, :] = experiments.test_retraining(
-            model, 
-            test_idx, 
+            model,
+            test_idx,
             iter_to_load=0,
             force_refresh=False,
             num_steps=2000,
@@ -154,7 +154,7 @@ for counter, temp in enumerate(temps):
             num_to_remove=num_to_remove)
 
 np.savez(
-    'output/hinge_results', 
+    'output/hinge_results',
     temps=temps,
     indices_to_remove=indices_to_remove,
     actual_loss_diffs=actual_loss_diffs,

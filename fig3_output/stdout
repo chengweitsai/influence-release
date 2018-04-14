@@ -1,0 +1,984 @@
+('Extracting', u'data/train-images-idx3-ubyte.gz')
+('Extracting', u'data/train-labels-idx1-ubyte.gz')
+('Extracting', u'data/t10k-images-idx3-ubyte.gz')
+('Extracting', u'data/t10k-labels-idx1-ubyte.gz')
+Total number of parameters: 784
+Using normal model
+SVM training took 348 iter.
+After SVM training: 
+Train loss (w reg) on all data: 0.024493
+Train loss (w/o reg) on all data: 0.014984
+Test loss (w/o reg) on all data: 0.0224791
+Train acc on all data:  0.995762711864
+Test acc on all data:   0.992380952381
+Norm of the mean of gradients: 0.00470828
+Norm of the params: 1.37905
+Model output/smooth_hinge_17_t-0-checkpoint-0 loaded. Sanity checks ---
+Train loss (w reg) on all data: 0.024493
+Train loss (w/o reg) on all data: 0.014984
+Test loss (w/o reg) on all data: 0.0224791
+Train acc on all data:  0.995762711864
+Test acc on all data:   0.992380952381
+Norm of the mean of gradients: 0.00470828
+Norm of the params: 1.37905
+Total number of parameters: 784
+Model output/smooth_hinge_17_t-0-checkpoint-0 loaded. Sanity checks ---
+Train loss (w reg) on all data: 0.024493
+Train loss (w/o reg) on all data: 0.014984
+Test loss (w/o reg) on all data: 0.0224791
+Train acc on all data:  0.995762711864
+Test acc on all data:   0.992380952381
+Norm of the mean of gradients: 0.00470828
+Norm of the params: 1.37905
+Norm of test gradient: 7.60531
+Function value: -2892.03857422
+Split function value: 2892.03857422, -5784.08
+Predicted loss diff on train_idx 5: 8.2614977481e-05
+Function value: -2892.03857422
+Split function value: 2892.03857422, -5784.08
+Predicted loss diff on train_idx 5: 8.26149825322e-05
+Function value: -2892.03857422
+Split function value: 2892.03857422, -5784.08
+Predicted loss diff on train_idx 5: 8.26149825322e-05
+Optimization terminated successfully.
+         Current function value: -2892.038574
+         Iterations: 3
+         Function evaluations: 4
+         Gradient evaluations: 6
+         Hessian evaluations: 3
+Saved inverse HVP to output/smooth_hinge_17_t-0-cg-normal_loss-test-[1597].npz
+Inverse HVP took 0.570517063141 sec
+Multiplying by 11800 train examples took 17.3802042007 sec
+Model output/smooth_hinge_17_t-0-checkpoint-0 loaded. Sanity checks ---
+Train loss (w reg) on all data: 0.024493
+Train loss (w/o reg) on all data: 0.014984
+Test loss (w/o reg) on all data: 0.0224791
+Train acc on all data:  0.995762711864
+Test acc on all data:   0.992380952381
+Norm of the mean of gradients: 0.00470828
+Norm of the params: 1.37905
+Test label: -1
+Norm of test gradient: 7.60531
+Loaded inverse HVP from output/smooth_hinge_17_t-0-cg-normal_loss-test-[1597].npz
+Inverse HVP took 0.00310206413269 sec
+Multiplying by 11800 train examples took 18.3682410717 sec
+Using normal model
+Sanity check: what happens if you train the model a bit more?
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97486
+Difference in test loss after retraining     : 0.0
+===
+Total loss on training set with original model    : 0.024493
+Total loss on training with retrained model   : 0.024493
+Difference in train loss after retraining     : 0.0
+These differences should be close to 0.
+
+=== #0 ===
+Retraining without train_idx 920 (label 1):
+Using model minus one
+Diff in params: 0.0255049
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97755
+Difference in loss after retraining     : 0.00269055366516
+Predicted difference in loss (influence): -0.22070848368
+=== #1 ===
+Retraining without train_idx 8253 (label 1):
+Using model minus one
+Diff in params: 0.00811158
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97137
+Difference in loss after retraining     : -0.00348556041718
+Predicted difference in loss (influence): -0.221730791512
+=== #2 ===
+Retraining without train_idx 5533 (label 1):
+Using model minus one
+Diff in params: 0.000263528
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97491
+Difference in loss after retraining     : 4.98294830322e-05
+Predicted difference in loss (influence): -0.223102613546
+=== #3 ===
+Retraining without train_idx 1872 (label -1):
+Using model minus one
+Diff in params: 0.0193195
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.98505
+Difference in loss after retraining     : 0.0101914405823
+Predicted difference in loss (influence): 0.224488090903
+=== #4 ===
+Retraining without train_idx 6390 (label -1):
+Using model minus one
+Diff in params: 0.0302214
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 2.01295
+Difference in loss after retraining     : 0.038094997406
+Predicted difference in loss (influence): 0.224765459481
+=== #5 ===
+Retraining without train_idx 7993 (label 1):
+Using model minus one
+Diff in params: 0.0188367
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97016
+Difference in loss after retraining     : -0.00469970703125
+Predicted difference in loss (influence): -0.225131298001
+=== #6 ===
+Retraining without train_idx 10307 (label 1):
+Using model minus one
+Diff in params: 0.0165103
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.98118
+Difference in loss after retraining     : 0.00632154941559
+Predicted difference in loss (influence): -0.229891791909
+=== #7 ===
+Retraining without train_idx 10785 (label -1):
+Using model minus one
+Diff in params: 0.0206788
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.9627
+Difference in loss after retraining     : -0.0121545791626
+Predicted difference in loss (influence): 0.231923041909
+=== #8 ===
+Retraining without train_idx 9518 (label 1):
+Using model minus one
+Diff in params: 0.0171133
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96683
+Difference in loss after retraining     : -0.00802314281464
+Predicted difference in loss (influence): -0.232006629039
+=== #9 ===
+Retraining without train_idx 7215 (label -1):
+Using model minus one
+Diff in params: 0.0308024
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97975
+Difference in loss after retraining     : 0.00489115715027
+Predicted difference in loss (influence): 0.232669698424
+=== #10 ===
+Retraining without train_idx 9634 (label 1):
+Using model minus one
+Diff in params: 0.00906534
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.977
+Difference in loss after retraining     : 0.00214445590973
+Predicted difference in loss (influence): -0.232673505363
+=== #11 ===
+Retraining without train_idx 11641 (label 1):
+Using model minus one
+Diff in params: 0.0182085
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.9695
+Difference in loss after retraining     : -0.00535893440247
+Predicted difference in loss (influence): -0.232852431475
+=== #12 ===
+Retraining without train_idx 2276 (label 1):
+Using model minus one
+Diff in params: 0.0135622
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96609
+Difference in loss after retraining     : -0.00876986980438
+Predicted difference in loss (influence): -0.234066844876
+=== #13 ===
+Retraining without train_idx 2474 (label 1):
+Using model minus one
+Diff in params: 0.0353392
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97596
+Difference in loss after retraining     : 0.00110721588135
+Predicted difference in loss (influence): -0.234314213122
+=== #14 ===
+Retraining without train_idx 2702 (label 1):
+Using model minus one
+Diff in params: 0.0146202
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97576
+Difference in loss after retraining     : 0.000900983810425
+Predicted difference in loss (influence): -0.234956985732
+=== #15 ===
+Retraining without train_idx 2752 (label 1):
+Using model minus one
+Diff in params: 0.0211467
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.98434
+Difference in loss after retraining     : 0.00947833061218
+Predicted difference in loss (influence): -0.235640807071
+=== #16 ===
+Retraining without train_idx 8087 (label -1):
+Using model minus one
+Diff in params: 0.0224721
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.95931
+Difference in loss after retraining     : -0.015549659729
+Predicted difference in loss (influence): 0.237498468949
+=== #17 ===
+Retraining without train_idx 3679 (label 1):
+Using model minus one
+Diff in params: 0.0366034
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96635
+Difference in loss after retraining     : -0.00850319862366
+Predicted difference in loss (influence): -0.238320891817
+=== #18 ===
+Retraining without train_idx 8779 (label 1):
+Using model minus one
+Diff in params: 0.0163976
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.9738
+Difference in loss after retraining     : -0.00105261802673
+Predicted difference in loss (influence): -0.240676952297
+=== #19 ===
+Retraining without train_idx 7186 (label -1):
+Using model minus one
+Diff in params: 0.0207091
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96975
+Difference in loss after retraining     : -0.00510859489441
+Predicted difference in loss (influence): 0.241489381952
+=== #20 ===
+Retraining without train_idx 4880 (label -1):
+Using model minus one
+Diff in params: 0.0092678
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97599
+Difference in loss after retraining     : 0.00113201141357
+Predicted difference in loss (influence): 0.24606362553
+=== #21 ===
+Retraining without train_idx 9826 (label -1):
+Using model minus one
+Diff in params: 0.0188893
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97896
+Difference in loss after retraining     : 0.00410294532776
+Predicted difference in loss (influence): 0.246823316671
+=== #22 ===
+Retraining without train_idx 1993 (label -1):
+Using model minus one
+Diff in params: 0.0265703
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 2.00106
+Difference in loss after retraining     : 0.0262060165405
+Predicted difference in loss (influence): 0.2471787068
+=== #23 ===
+Retraining without train_idx 1423 (label 1):
+Using model minus one
+Diff in params: 0.0145952
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97667
+Difference in loss after retraining     : 0.00181066989899
+Predicted difference in loss (influence): -0.248751034494
+=== #24 ===
+Retraining without train_idx 7790 (label 1):
+Using model minus one
+Diff in params: 0.0356583
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97288
+Difference in loss after retraining     : -0.00198078155518
+Predicted difference in loss (influence): -0.249771376788
+=== #25 ===
+Retraining without train_idx 9929 (label -1):
+Using model minus one
+Diff in params: 0.0214423
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97086
+Difference in loss after retraining     : -0.00400114059448
+Predicted difference in loss (influence): 0.252945349742
+=== #26 ===
+Retraining without train_idx 4830 (label -1):
+Using model minus one
+Diff in params: 0.0312817
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97708
+Difference in loss after retraining     : 0.00222790241241
+Predicted difference in loss (influence): 0.25312493793
+=== #27 ===
+Retraining without train_idx 471 (label -1):
+Using model minus one
+Diff in params: 0.0285382
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 2.01737
+Difference in loss after retraining     : 0.0425095558167
+Predicted difference in loss (influence): 0.254631389036
+=== #28 ===
+Retraining without train_idx 237 (label -1):
+Using model minus one
+Diff in params: 0.0354383
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.98431
+Difference in loss after retraining     : 0.00945091247559
+Predicted difference in loss (influence): 0.257466937566
+=== #29 ===
+Retraining without train_idx 9480 (label -1):
+Using model minus one
+Diff in params: 0.0228884
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96661
+Difference in loss after retraining     : -0.00824761390686
+Predicted difference in loss (influence): 0.257628815215
+=== #30 ===
+Retraining without train_idx 5269 (label 1):
+Using model minus one
+Diff in params: 0.0146377
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97527
+Difference in loss after retraining     : 0.000412940979004
+Predicted difference in loss (influence): -0.257988653668
+=== #31 ===
+Retraining without train_idx 8764 (label 1):
+Using model minus one
+Diff in params: 0.0217697
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96948
+Difference in loss after retraining     : -0.00538063049316
+Predicted difference in loss (influence): -0.258030778271
+=== #32 ===
+Retraining without train_idx 142 (label 1):
+Using model minus one
+Diff in params: 0.0142606
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97502
+Difference in loss after retraining     : 0.000162124633789
+Predicted difference in loss (influence): -0.260390087063
+=== #33 ===
+Retraining without train_idx 3261 (label -1):
+Using model minus one
+Diff in params: 0.0259312
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.98744
+Difference in loss after retraining     : 0.0125868320465
+Predicted difference in loss (influence): 0.264759976662
+=== #34 ===
+Retraining without train_idx 2965 (label 1):
+Using model minus one
+Diff in params: 0.01912
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97143
+Difference in loss after retraining     : -0.0034282207489
+Predicted difference in loss (influence): -0.267453489142
+=== #35 ===
+Retraining without train_idx 3415 (label -1):
+Using model minus one
+Diff in params: 0.0212087
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97907
+Difference in loss after retraining     : 0.00421547889709
+Predicted difference in loss (influence): 0.268292257018
+=== #36 ===
+Retraining without train_idx 3782 (label -1):
+Using model minus one
+Diff in params: 0.0254259
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.98369
+Difference in loss after retraining     : 0.00883436203003
+Predicted difference in loss (influence): 0.269720645193
+=== #37 ===
+Retraining without train_idx 2346 (label 1):
+Using model minus one
+Diff in params: 0.0133748
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.9694
+Difference in loss after retraining     : -0.00545239448547
+Predicted difference in loss (influence): -0.271861427436
+=== #38 ===
+Retraining without train_idx 4199 (label 1):
+Using model minus one
+Diff in params: 0.0301325
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97505
+Difference in loss after retraining     : 0.000189304351807
+Predicted difference in loss (influence): -0.272510469081
+=== #39 ===
+Retraining without train_idx 7930 (label 1):
+Using model minus one
+Diff in params: 0.0147597
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96612
+Difference in loss after retraining     : -0.00873529911041
+Predicted difference in loss (influence): -0.27259949765
+=== #40 ===
+Retraining without train_idx 3561 (label -1):
+Using model minus one
+Diff in params: 0.0191873
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97095
+Difference in loss after retraining     : -0.00390410423279
+Predicted difference in loss (influence): 0.278731648073
+=== #41 ===
+Retraining without train_idx 10189 (label 1):
+Using model minus one
+Diff in params: 0.0177384
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97446
+Difference in loss after retraining     : -0.000401139259338
+Predicted difference in loss (influence): -0.279080831237
+=== #42 ===
+Retraining without train_idx 9868 (label 1):
+Using model minus one
+Diff in params: 0.0334959
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97085
+Difference in loss after retraining     : -0.00400817394257
+Predicted difference in loss (influence): -0.281101943194
+=== #43 ===
+Retraining without train_idx 17 (label 1):
+Using model minus one
+Diff in params: 0.0132263
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97278
+Difference in loss after retraining     : -0.00207567214966
+Predicted difference in loss (influence): -0.284855129436
+=== #44 ===
+Retraining without train_idx 5295 (label -1):
+Using model minus one
+Diff in params: 0.0217559
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97696
+Difference in loss after retraining     : 0.00210750102997
+Predicted difference in loss (influence): 0.286382953191
+=== #45 ===
+Retraining without train_idx 10187 (label -1):
+Using model minus one
+Diff in params: 0.0285086
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 2.00385
+Difference in loss after retraining     : 0.0289959907532
+Predicted difference in loss (influence): 0.287159568657
+=== #46 ===
+Retraining without train_idx 9950 (label 1):
+Using model minus one
+Diff in params: 0.0122665
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97223
+Difference in loss after retraining     : -0.00262606143951
+Predicted difference in loss (influence): -0.287268025026
+=== #47 ===
+Retraining without train_idx 178 (label 1):
+Using model minus one
+Diff in params: 0.0356085
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96849
+Difference in loss after retraining     : -0.00636422634125
+Predicted difference in loss (influence): -0.295000910355
+=== #48 ===
+Retraining without train_idx 9669 (label -1):
+Using model minus one
+Diff in params: 0.0391699
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 2.01844
+Difference in loss after retraining     : 0.0435781478882
+Predicted difference in loss (influence): 0.298697364936
+=== #49 ===
+Retraining without train_idx 10192 (label -1):
+Using model minus one
+Diff in params: 0.032785
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 2.01658
+Difference in loss after retraining     : 0.0417249202728
+Predicted difference in loss (influence): 0.29950292555
+=== #50 ===
+Retraining without train_idx 10788 (label -1):
+Using model minus one
+Diff in params: 0.0064614
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97862
+Difference in loss after retraining     : 0.00376319885254
+Predicted difference in loss (influence): 0.300412370068
+=== #51 ===
+Retraining without train_idx 133 (label 1):
+Using model minus one
+Diff in params: 0.0148047
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97422
+Difference in loss after retraining     : -0.000640749931335
+Predicted difference in loss (influence): -0.301577272577
+=== #52 ===
+Retraining without train_idx 8174 (label 1):
+Using model minus one
+Diff in params: 0.0222882
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97228
+Difference in loss after retraining     : -0.00257229804993
+Predicted difference in loss (influence): -0.303012943591
+=== #53 ===
+Retraining without train_idx 10369 (label 1):
+Using model minus one
+Diff in params: 0.00502708
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97461
+Difference in loss after retraining     : -0.000245451927185
+Predicted difference in loss (influence): -0.305222664526
+=== #54 ===
+Retraining without train_idx 481 (label -1):
+Using model minus one
+Diff in params: 0.0202814
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.98977
+Difference in loss after retraining     : 0.0149155855179
+Predicted difference in loss (influence): 0.305437922074
+=== #55 ===
+Retraining without train_idx 8537 (label 1):
+Using model minus one
+Diff in params: 0.0160539
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.95948
+Difference in loss after retraining     : -0.0153813362122
+Predicted difference in loss (influence): -0.30824574616
+=== #56 ===
+Retraining without train_idx 3808 (label 1):
+Using model minus one
+Diff in params: 0.0208991
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96701
+Difference in loss after retraining     : -0.00784873962402
+Predicted difference in loss (influence): -0.308260084249
+=== #57 ===
+Retraining without train_idx 714 (label -1):
+Using model minus one
+Diff in params: 0.0244303
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.98541
+Difference in loss after retraining     : 0.0105506181717
+Predicted difference in loss (influence): 0.308983650854
+=== #58 ===
+Retraining without train_idx 5532 (label 1):
+Using model minus one
+Diff in params: 0.00397118
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97304
+Difference in loss after retraining     : -0.00181877613068
+Predicted difference in loss (influence): -0.309271178165
+=== #59 ===
+Retraining without train_idx 1978 (label -1):
+Using model minus one
+Diff in params: 0.0309553
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96571
+Difference in loss after retraining     : -0.00914835929871
+Predicted difference in loss (influence): 0.311191137282
+=== #60 ===
+Retraining without train_idx 7884 (label 1):
+Using model minus one
+Diff in params: 0.0178641
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97579
+Difference in loss after retraining     : 0.000932216644287
+Predicted difference in loss (influence): -0.313189738645
+=== #61 ===
+Retraining without train_idx 5455 (label -1):
+Using model minus one
+Diff in params: 0.0342252
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.9952
+Difference in loss after retraining     : 0.0203411579132
+Predicted difference in loss (influence): 0.313191911083
+=== #62 ===
+Retraining without train_idx 3779 (label -1):
+Using model minus one
+Diff in params: 0.0250132
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97511
+Difference in loss after retraining     : 0.000252723693848
+Predicted difference in loss (influence): 0.313778676178
+=== #63 ===
+Retraining without train_idx 5229 (label -1):
+Using model minus one
+Diff in params: 0.0204376
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.9808
+Difference in loss after retraining     : 0.0059427022934
+Predicted difference in loss (influence): 0.316738695048
+=== #64 ===
+Retraining without train_idx 7834 (label 1):
+Using model minus one
+Diff in params: 0.0221894
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.9707
+Difference in loss after retraining     : -0.00415396690369
+Predicted difference in loss (influence): -0.318881049722
+=== #65 ===
+Retraining without train_idx 702 (label 1):
+Using model minus one
+Diff in params: 0.0199534
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.95067
+Difference in loss after retraining     : -0.0241856575012
+Predicted difference in loss (influence): -0.321359863281
+=== #66 ===
+Retraining without train_idx 1598 (label 1):
+Using model minus one
+Diff in params: 0.0191363
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96854
+Difference in loss after retraining     : -0.00631976127625
+Predicted difference in loss (influence): -0.329232591532
+=== #67 ===
+Retraining without train_idx 3074 (label 1):
+Using model minus one
+Diff in params: 0.0186479
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.9623
+Difference in loss after retraining     : -0.0125554800034
+Predicted difference in loss (influence): -0.330543957726
+=== #68 ===
+Retraining without train_idx 5936 (label 1):
+Using model minus one
+Diff in params: 0.0290649
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.98188
+Difference in loss after retraining     : 0.00702476501465
+Predicted difference in loss (influence): -0.33362569518
+=== #69 ===
+Retraining without train_idx 3191 (label -1):
+Using model minus one
+Diff in params: 0.01489
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97071
+Difference in loss after retraining     : -0.00414896011353
+Predicted difference in loss (influence): 0.336307559256
+=== #70 ===
+Retraining without train_idx 2337 (label 1):
+Using model minus one
+Diff in params: 0.0239944
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96944
+Difference in loss after retraining     : -0.00541889667511
+Predicted difference in loss (influence): -0.341432464082
+=== #71 ===
+Retraining without train_idx 7994 (label 1):
+Using model minus one
+Diff in params: 0.0288082
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97395
+Difference in loss after retraining     : -0.000910878181458
+Predicted difference in loss (influence): -0.343072385626
+=== #72 ===
+Retraining without train_idx 10205 (label -1):
+Using model minus one
+Diff in params: 0.0293658
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 2.00358
+Difference in loss after retraining     : 0.0287203788757
+Predicted difference in loss (influence): 0.34669928082
+=== #73 ===
+Retraining without train_idx 3242 (label 1):
+Using model minus one
+Diff in params: 0.0214309
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96135
+Difference in loss after retraining     : -0.0135080814362
+Predicted difference in loss (influence): -0.347003463486
+=== #74 ===
+Retraining without train_idx 1944 (label 1):
+Using model minus one
+Diff in params: 0.0154623
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.9628
+Difference in loss after retraining     : -0.0120595693588
+Predicted difference in loss (influence): -0.34700646352
+=== #75 ===
+Retraining without train_idx 2319 (label 1):
+Using model minus one
+Diff in params: 0.0221309
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97596
+Difference in loss after retraining     : 0.00110244750977
+Predicted difference in loss (influence): -0.347260080111
+=== #76 ===
+Retraining without train_idx 7168 (label -1):
+Using model minus one
+Diff in params: 0.0181472
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.9819
+Difference in loss after retraining     : 0.00704407691956
+Predicted difference in loss (influence): 0.347406026549
+=== #77 ===
+Retraining without train_idx 3015 (label -1):
+Using model minus one
+Diff in params: 0.0183253
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.98493
+Difference in loss after retraining     : 0.0100749731064
+Predicted difference in loss (influence): 0.356364373676
+=== #78 ===
+Retraining without train_idx 7433 (label -1):
+Using model minus one
+Diff in params: 0.0239815
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96819
+Difference in loss after retraining     : -0.00666904449463
+Predicted difference in loss (influence): 0.359022940943
+=== #79 ===
+Retraining without train_idx 4089 (label 1):
+Using model minus one
+Diff in params: 0.0200621
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96376
+Difference in loss after retraining     : -0.0110983848572
+Predicted difference in loss (influence): -0.364575857389
+=== #80 ===
+Retraining without train_idx 718 (label -1):
+Using model minus one
+Diff in params: 0.0324718
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 2.00135
+Difference in loss after retraining     : 0.0264949798584
+Predicted difference in loss (influence): 0.370525688559
+=== #81 ===
+Retraining without train_idx 10132 (label -1):
+Using model minus one
+Diff in params: 0.0273874
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.99611
+Difference in loss after retraining     : 0.0212576389313
+Predicted difference in loss (influence): 0.375991252317
+=== #82 ===
+Retraining without train_idx 3042 (label -1):
+Using model minus one
+Diff in params: 0.0107123
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.98254
+Difference in loss after retraining     : 0.00767874717712
+Predicted difference in loss (influence): 0.378059537209
+=== #83 ===
+Retraining without train_idx 9542 (label -1):
+Using model minus one
+Diff in params: 0.0254681
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.98865
+Difference in loss after retraining     : 0.0137950181961
+Predicted difference in loss (influence): 0.383080971928
+=== #84 ===
+Retraining without train_idx 10371 (label -1):
+Using model minus one
+Diff in params: 0.0322611
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.98696
+Difference in loss after retraining     : 0.0121015310287
+Predicted difference in loss (influence): 0.384344461732
+=== #85 ===
+Retraining without train_idx 3905 (label 1):
+Using model minus one
+Diff in params: 0.0288442
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.95524
+Difference in loss after retraining     : -0.0196151733398
+Predicted difference in loss (influence): -0.385078787076
+=== #86 ===
+Retraining without train_idx 1040 (label -1):
+Using model minus one
+Diff in params: 0.0287657
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.97199
+Difference in loss after retraining     : -0.00286757946014
+Predicted difference in loss (influence): 0.38906432071
+=== #87 ===
+Retraining without train_idx 8863 (label -1):
+Using model minus one
+Diff in params: 0.0186376
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.99261
+Difference in loss after retraining     : 0.0177489519119
+Predicted difference in loss (influence): 0.394965158236
+=== #88 ===
+Retraining without train_idx 6532 (label 1):
+Using model minus one
+Diff in params: 0.0163689
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96855
+Difference in loss after retraining     : -0.00630569458008
+Predicted difference in loss (influence): -0.397524993379
+=== #89 ===
+Retraining without train_idx 6537 (label 1):
+Using model minus one
+Diff in params: 0.0164786
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.9686
+Difference in loss after retraining     : -0.00625312328339
+Predicted difference in loss (influence): -0.402656001721
+=== #90 ===
+Retraining without train_idx 8009 (label 1):
+Using model minus one
+Diff in params: 0.0279074
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96214
+Difference in loss after retraining     : -0.0127189159393
+Predicted difference in loss (influence): -0.403212476827
+=== #91 ===
+Retraining without train_idx 2017 (label -1):
+Using model minus one
+Diff in params: 0.0300804
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.9891
+Difference in loss after retraining     : 0.0142424106598
+Predicted difference in loss (influence): 0.403315677966
+=== #92 ===
+Retraining without train_idx 5129 (label -1):
+Using model minus one
+Diff in params: 0.0372784
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 2.00898
+Difference in loss after retraining     : 0.0341243743896
+Predicted difference in loss (influence): 0.405171808792
+=== #93 ===
+Retraining without train_idx 7896 (label 1):
+Using model minus one
+Diff in params: 0.0210614
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.9659
+Difference in loss after retraining     : -0.00895714759827
+Predicted difference in loss (influence): -0.414145590572
+=== #94 ===
+Retraining without train_idx 83 (label 1):
+Using model minus one
+Diff in params: 0.018491
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.95624
+Difference in loss after retraining     : -0.0186139345169
+Predicted difference in loss (influence): -0.415799457097
+=== #95 ===
+Retraining without train_idx 9639 (label 1):
+Using model minus one
+Diff in params: 0.0261801
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96545
+Difference in loss after retraining     : -0.00940215587616
+Predicted difference in loss (influence): -0.419073258739
+=== #96 ===
+Retraining without train_idx 9616 (label 1):
+Using model minus one
+Diff in params: 0.0209883
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.96048
+Difference in loss after retraining     : -0.0143768787384
+Predicted difference in loss (influence): -0.419574781515
+=== #97 ===
+Retraining without train_idx 1763 (label -1):
+Using model minus one
+Diff in params: 0.0315813
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 2.00468
+Difference in loss after retraining     : 0.0298247337341
+Predicted difference in loss (influence): 0.457460689221
+=== #98 ===
+Retraining without train_idx 8959 (label -1):
+Using model minus one
+Diff in params: 0.0291517
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 2.00747
+Difference in loss after retraining     : 0.0326180458069
+Predicted difference in loss (influence): 0.472099402476
+=== #99 ===
+Retraining without train_idx 8539 (label -1):
+Using model minus one
+Diff in params: 0.0292291
+Loss on test idx with original model    : 1.97486
+Loss on test idx with retrained model   : 1.99222
+Difference in loss after retraining     : 0.0173671245575
+Predicted difference in loss (influence): 0.473173952264
+Correlation is 0.632477619623
+Total number of parameters: 784
+Train loss (w reg) on all data: 0.0244969
+Train loss (w/o reg) on all data: 0.0149879
+Test loss (w/o reg) on all data: 0.0224792
+Train acc on all data:  0.995762711864
+Test acc on all data:   0.992380952381
+Norm of the mean of gradients: 0.00100652
+Norm of the params: 1.37905
+Norm of test gradient: 7.60531
+Function value: -1.819480896
+Split function value: 38.593788147, -40.4133
+Predicted loss diff on train_idx 5: 6.66999415952e-07
+Function value: -25.0538749695
+Split function value: 8.84957504272, -33.9035
+Predicted loss diff on train_idx 5: 6.75572240252e-07
+Function value: -231.803649902
+Split function value: 40.9197998047, -272.723
+Predicted loss diff on train_idx 5: -6.76348047741e-06
+Function value: -502.243225098
+Split function value: 324.562072754, -826.805
+Predicted loss diff on train_idx 5: -2.42391506494e-05
+Function value: -532.51739502
+Split function value: 516.679504395, -1049.2
+Predicted loss diff on train_idx 5: -3.20341299146e-05
+Function value: -533.281738281
+Split function value: 524.045532227, -1057.33
+Predicted loss diff on train_idx 5: -3.19972432266e-05
+Function value: -533.363891602
+Split function value: 524.71887207, -1058.08
+Predicted loss diff on train_idx 5: -3.21182987448e-05
+Function value: -533.399536133
+Split function value: 529.502441406, -1062.9
+Predicted loss diff on train_idx 5: -3.22336413093e-05
+Function value: -533.409790039
+Split function value: 531.624145508, -1065.03
+Predicted loss diff on train_idx 5: -3.23342670829e-05
+Function value: -533.411743164
+Split function value: 532.50402832, -1065.92
+Predicted loss diff on train_idx 5: -3.23582326962e-05
+Function value: -533.412109375
+Split function value: 533.247314453, -1066.66
+Predicted loss diff on train_idx 5: -3.23840950505e-05
+Function value: -533.412353516
+Split function value: 533.323730469, -1066.74
+Predicted loss diff on train_idx 5: -3.23866838116e-05
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: -533.412354
+         Iterations: 12
+         Function evaluations: 99
+         Gradient evaluations: 100
+         Hessian evaluations: 165
+Saved inverse HVP to output/smooth_hinge_17_t-0.001-cg-normal_loss-test-[1597].npz
+Inverse HVP took 14.9237120152 sec
+Multiplying by 11800 train examples took 21.6910808086 sec
+Total number of parameters: 784
+Train loss (w reg) on all data: 0.0267476
+Train loss (w/o reg) on all data: 0.0172386
+Test loss (w/o reg) on all data: 0.0243601
+Train acc on all data:  0.995762711864
+Test acc on all data:   0.992380952381
+Norm of the mean of gradients: 0.0263135
+Norm of the params: 1.37905
+Norm of test gradient: 7.60531
+Function value: -48.550318718
+Split function value: 7.43027210236, -55.9806
+Predicted loss diff on train_idx 5: 2.06765513551e-06
+Function value: -242.337142944
+Split function value: 42.3594512939, -284.697
+Predicted loss diff on train_idx 5: -4.38959542978e-06
+Function value: -501.902587891
+Split function value: 311.477233887, -813.38
+Predicted loss diff on train_idx 5: -1.82589825432e-05
+Function value: -548.373046875
+Split function value: 556.967285156, -1105.34
+Predicted loss diff on train_idx 5: -2.30360713045e-05
+Function value: -549.418273926
+Split function value: 544.019714355, -1093.44
+Predicted loss diff on train_idx 5: -2.59458109484e-05
+Function value: -549.501037598
+Split function value: 545.56072998, -1095.06
+Predicted loss diff on train_idx 5: -2.59434747494e-05
+Function value: -549.545898438
+Split function value: 548.312988281, -1097.86
+Predicted loss diff on train_idx 5: -2.57924022311e-05
+Function value: -549.549987793
+Split function value: 549.00994873, -1098.56
+Predicted loss diff on train_idx 5: -2.57420640881e-05
+Function value: -549.551025391
+Split function value: 549.316772461, -1098.87
+Predicted loss diff on train_idx 5: -2.58193354485e-05
+Function value: -549.551147461
+Split function value: 549.555786133, -1099.11
+Predicted loss diff on train_idx 5: -2.58147640754e-05
+Function value: -549.551208496
+Split function value: 549.554138184, -1099.11
+Predicted loss diff on train_idx 5: -2.58143877579e-05
+Function value: -549.551269531
+Split function value: 549.551025391, -1099.1
+Predicted loss diff on train_idx 5: -2.58136250205e-05
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: -549.551270
+         Iterations: 12
+         Function evaluations: 86
+         Gradient evaluations: 86
+         Hessian evaluations: 85
+Saved inverse HVP to output/smooth_hinge_17_t-0.1-cg-normal_loss-test-[1597].npz
+Inverse HVP took 10.5633909702 sec
+Multiplying by 11800 train examples took 21.9801199436 sec

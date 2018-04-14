@@ -1,0 +1,2 @@
+model_checkpoint_path: "mnist-17_logreg-checkpoint-0"
+all_model_checkpoint_paths: "mnist-17_logreg-checkpoint-0"

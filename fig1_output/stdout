@@ -1,0 +1,53 @@
+('Extracting', u'data/train-images-idx3-ubyte.gz')
+('Extracting', u'data/train-labels-idx1-ubyte.gz')
+('Extracting', u'data/t10k-images-idx3-ubyte.gz')
+('Extracting', u'data/t10k-labels-idx1-ubyte.gz')
+Total number of parameters: 784
+Using normal model
+LBFGS training took [24] iter.
+After training with LBFGS: 
+Train loss (w reg) on all data: 0.0605878
+Train loss (w/o reg) on all data: 0.0350416
+Test loss (w/o reg) on all data: 0.0393495
+Train acc on all data:  0.992601311586
+Test acc on all data:   0.991215903837
+Norm of the mean of gradients: 1.73297e-06
+Norm of the params: 2.26036
+Norm of test gradient: 2.88837
+Function value: -50.3006095886
+Split function value: 50.3009223938, -100.602
+Predicted loss diff on train_idx 5: 1.55857326164e-05
+Function value: -53.9382324219
+Split function value: 48.9321670532, -102.87
+Predicted loss diff on train_idx 5: 1.62235070762e-05
+Function value: -54.1330184937
+Split function value: 53.1273422241, -107.26
+Predicted loss diff on train_idx 5: 1.70380984592e-05
+Function value: -54.1707649231
+Split function value: 54.0270729065, -108.198
+Predicted loss diff on train_idx 5: 1.48898544022e-05
+Function value: -54.1716690063
+Split function value: 54.1411972046, -108.313
+Predicted loss diff on train_idx 5: 1.48974465526e-05
+Function value: -54.1717224121
+Split function value: 54.1711425781, -108.343
+Predicted loss diff on train_idx 5: 1.48863740402e-05
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: -54.171722
+         Iterations: 6
+         Function evaluations: 79
+         Gradient evaluations: 73
+         Hessian evaluations: 29
+Saved inverse HVP to output/mnist-17_logreg-cg-normal_loss-test-[30].npz
+Inverse HVP took 8.26165509224 sec
+Multiplying by 11894 train examples took 22.1230421066 sec
+Norm of test gradient: 2.88837
+Loaded inverse HVP from output/mnist-17_logreg-cg-normal_loss-test-[30].npz
+Inverse HVP took 0.0023992061615 sec
+Multiplying by 11894 train examples took 0.137420892715 sec
+Norm of test gradient: 2.88837
+Inverse HVP took 2.50339508057e-05 sec
+Multiplying by 11894 train examples took 21.989593029 sec
+Norm of test gradient: 2.88837
+Inverse HVP took 6.60419464111e-05 sec
+Multiplying by 11894 train examples took 0.140070915222 sec

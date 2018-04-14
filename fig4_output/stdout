@@ -1,0 +1,93 @@
+Loading animals from disk...
+Total number of parameters: 1800
+Using normal model
+SVM training took 25 iter.
+After SVM training: 
+Train loss (w reg) on all data: 0.611888
+Train loss (w/o reg) on all data: 0.376856
+Test loss (w/o reg) on all data: 0.747337
+Train acc on all data:  0.92
+Test acc on all data:   0.708333333333
+Norm of the mean of gradients: 0.00847135
+Norm of the params: 21.6809
+Total number of parameters: 1800
+Norm of test gradient: 0.571393
+Function value: -30.7678565979
+Split function value: 30.7671966553, -61.5351
+Predicted loss diff on train_idx 5: 0.00665346198612
+Function value: -31.011806488
+Split function value: 30.5231742859, -61.535
+Predicted loss diff on train_idx 5: 0.00663844744364
+Function value: -31.0390472412
+Split function value: 30.498210907, -61.5373
+Predicted loss diff on train_idx 5: 0.00662288824717
+Function value: -31.0517196655
+Split function value: 30.655040741, -61.7068
+Predicted loss diff on train_idx 5: 0.00661323494381
+Function value: -31.0526485443
+Split function value: 30.6876468658, -61.7403
+Predicted loss diff on train_idx 5: 0.00661959542169
+Function value: -31.0539989471
+Split function value: 30.8593082428, -61.9133
+Predicted loss diff on train_idx 5: 0.00663983556959
+Function value: -31.0544204712
+Split function value: 31.0384216309, -62.0928
+Predicted loss diff on train_idx 5: 0.00665900866191
+Function value: -31.0544281006
+Split function value: 31.0526390076, -62.1071
+Predicted loss diff on train_idx 5: 0.00666090435452
+Function value: -31.0544319153
+Split function value: 31.0544281006, -62.1089
+Predicted loss diff on train_idx 5: 0.00666112211015
+Function value: -31.0544319153
+Split function value: 31.0544281006, -62.1089
+Predicted loss diff on train_idx 5: 0.00666112158034
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: -31.054432
+         Iterations: 10
+         Function evaluations: 13
+         Gradient evaluations: 22
+         Hessian evaluations: 172
+Saved inverse HVP to output/dogfish_rbf_hinge_t-0.001-cg-normal_loss-test-[462].npz
+Inverse HVP took 5.42336392403 sec
+Multiplying by 1800 train examples took 3.7286670208 sec
+Total number of parameters: 2048
+Total number of parameters: 2048
+Using normal model
+LBFGS training took [41] iter.
+After training with LBFGS: 
+Train loss (w reg) on all data: 0.012129
+Train loss (w/o reg) on all data: 0.00397613
+Test loss (w/o reg) on all data: 0.048454
+Train acc on all data:  1.0
+Test acc on all data:   0.985
+Norm of the mean of gradients: 3.77161e-07
+Norm of the params: 4.03805
+Norm of test gradient: 0.0456694
+Function value: -0.215744554996
+Split function value: 0.215736120939, -0.431481
+Predicted loss diff on train_idx 5: -1.58370757062e-06
+Function value: -0.223419964314
+Split function value: 0.208069443703, -0.431489
+Predicted loss diff on train_idx 5: -1.56805229684e-06
+Function value: -0.226146906614
+Split function value: 0.222331255674, -0.448478
+Predicted loss diff on train_idx 5: -1.48390600872e-06
+Function value: -0.226235508919
+Split function value: 0.225407421589, -0.451643
+Predicted loss diff on train_idx 5: -1.49566059311e-06
+Function value: -0.226240128279
+Split function value: 0.226215571165, -0.452456
+Predicted loss diff on train_idx 5: -1.49256187595e-06
+Function value: -0.22624014318
+Split function value: 0.226223543286, -0.452464
+Predicted loss diff on train_idx 5: -1.49259292003e-06
+Warning: Desired error not necessarily achieved due to precision loss.
+         Current function value: -0.226240
+         Iterations: 6
+         Function evaluations: 87
+         Gradient evaluations: 82
+         Hessian evaluations: 52
+Saved inverse HVP to output/dogfish_900_300_inception_onlytop-cg-normal_loss-test-[462].npz
+Inverse HVP took 4.61344194412 sec
+Multiplying by 1800 train examples took 3.57639789581 sec
