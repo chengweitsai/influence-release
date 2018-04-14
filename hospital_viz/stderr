@@ -1,0 +1,26 @@
+[NbConvertApp] Converting notebook hospital_readmission.ipynb to html
+[NbConvertApp] Executing notebook with kernel: python2
+2017-06-15 03:23:27.122005: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 03:23:27.122069: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 03:23:27.122085: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 03:23:27.122098: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 03:23:27.122110: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-15 03:23:27.498793: I tensorflow/core/common_runtime/gpu/gpu_device.cc:887] Found device 0 with properties: 
+name: GeForce GTX TITAN X
+major: 5 minor: 2 memoryClockRate (GHz) 1.076
+pciBusID 0000:81:00.0
+Total memory: 11.92GiB
+Free memory: 11.81GiB
+2017-06-15 03:23:27.498851: I tensorflow/core/common_runtime/gpu/gpu_device.cc:908] DMA: 0 
+2017-06-15 03:23:27.498866: I tensorflow/core/common_runtime/gpu/gpu_device.cc:918] 0:   Y 
+2017-06-15 03:23:27.498888: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:81:00.0)
+2017-06-15 03:23:38.659857: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX TITAN X, pci bus id: 0000:81:00.0)
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python2.7/dist-packages/ipykernel/parentpoller.py", line 36, in run
+    if os.getppid() == 1:
+AttributeError: 'NoneType' object has no attribute 'getppid'
+
+[NbConvertApp] Writing 477842 bytes to ./hospital_readmission.html
